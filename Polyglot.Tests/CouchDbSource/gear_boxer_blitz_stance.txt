@@ -1,0 +1,155 @@
+﻿{
+   "_id": "gear_boxer_blitz_stance",
+   "_rev": "35-118a8e1dabc430baa525634cd9ff00fc",
+   "prefab": "Prefabs/Gears/Unit/Blitz",
+   "fps_prefab": "Prefabs/Gears/Player/Blitz",
+   "icon": "sweetscience_W1_blitzstance_primary",
+   "killscore_icon": "icon_killscore_blitzstance",
+   "name": {
+       "text": "Blitz Stance",
+       "data": {
+           "ru": {
+               "original": "Blitz Stance",
+               "translation": "Стойка Молния"
+           }
+       }
+   },
+   "description": {
+       "text": "Quick punches on the left click, dash attack on the right click. Dash attack can be charged up for an improved dash with longer range and splash damage.",
+       "data": {
+           "ru": {
+               "original": "Quick punches on the left click, dash attack on the right click. Dash attack can be charged up for an improved dash with longer range and splash damage.",
+               "translation": ""
+           }
+       }
+   },
+   "animation_tag": "Shovel",
+   "big_icon": "sweetscience_W1_blitzstance_primary",
+   "primary_fire_icon": "sweetscience_W1_blitzstance_primary",
+   "alt_fire_icon": "sweetscience_W1_blitzstance_secondary",
+   "pickup_time": 0.5,
+   "drop_time": 0,
+   "equip_effects": [
+   ],
+   "ammo": [
+       {
+           "pool": {
+               "pool_size": 12,
+               "base_regen": 1
+           },
+           "mag_size": 2
+       }
+   ],
+   "reload": {
+       "type": "full_clip",
+       "reload_time": 1.5
+   },
+   "sway": null,
+   "sway_crouch_mod": null,
+   "cone_of_fire": null,
+   "reticle": {
+       "type": "dot",
+       "application": "opponent_only",
+       "preview_damage_range": 20,
+       "preview_max_range": 3
+   },
+   "tools": [
+       {
+           "type": "melee",
+           "ammo": null,
+           "arc_angle": 90,
+           "heeling_angle": 0,
+           "range": 3,
+           "bloom": null,
+           "attack_type": "auto",
+           "hit_effect": {
+               "type": "bunch",
+               "interrupt": null,
+               "targeting": null,
+               "impact": "impact_boxer_blitz_stance",
+               "break_on_effect_fail": false,
+               "instant": [
+                   {
+                       "type": "damage",
+                       "interrupt": null,
+                       "targeting": null,
+                       "impact": null,
+                       "damage": {
+                           "player_damage": 8,
+                           "world_damage": 8,
+                           "armor_penetration": 0,
+                           "shield_penetration": 0,
+                           "mining": false,
+                           "melee": false
+                       },
+                       "crit_modifier": 1.5,
+                       "falloff": null
+                   }
+               ],
+               "constant": [
+               ]
+           },
+           "timing": {
+               "pre_attack_time": 0.1,
+               "attack_time": 0.1
+           }
+       },
+       {
+           "type": "dash",
+           "ammo": {
+               "rate": 1,
+               "ammo_index": 0,
+               "last_shot_reload": false
+           },
+           "min_charge_time": 0,
+           "max_charge_time": 1,
+           "charge_root": false,
+           "can_hold_charge": true,
+           "hit_without_collision": true,
+           "min_ammo_rate_multiplier": 1,
+           "max_ammo_rate_multiplier": 2,
+           "min_dash_distance": 10,
+           "max_dash_distance": 20,
+           "min_dash_time": 0.5,
+           "max_dash_time": 0.5,
+           "hit_effect": {
+               "type": "damage",
+               "interrupt": null,
+               "targeting": null,
+               "impact": "impact_boxer_blitz_stance",
+               "damage": {
+                   "player_damage": 20,
+                   "world_damage": 20,
+                   "armor_penetration": 0,
+                   "shield_penetration": 0,
+                   "mining": false,
+                   "melee": true
+               },
+               "crit_modifier": 1,
+               "falloff": null
+           },
+           "max_hit_effect": {
+               "type": "splash_damage",
+               "interrupt": null,
+               "targeting": null,
+               "impact": "impact_explosion_stomp",
+               "damage": {
+                   "player_damage": 40,
+                   "world_damage": 40,
+                   "armor_penetration": 0,
+                   "shield_penetration": 0,
+                   "mining": false,
+                   "melee": false
+               },
+               "radius": 2
+           }
+       }
+   ],
+   "category": "gear",
+   "hercules_metadata": {
+       "timestamp": "201502021053407991",
+       "user": "pmmax",
+       "prev_rev": "34-541438ff8b0fda4f8fe1896db2524c19"
+   },
+   "scope": "public"
+}

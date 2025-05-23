@@ -1,0 +1,54 @@
+﻿{
+   "_id": "ability_boxer_antimatter_shield",
+   "_rev": "3-70e256f83b51ed6c1105cb0dd4c6fd77",
+   "icon": "",
+   "killscore_icon": "icon_killscore_graviton",
+   "prefab": "",
+   "charges": {
+       "max_charges": 1,
+       "charge_cooldown": 30
+   },
+   "validate": null,
+   "application": {
+       "type": "self",
+       "include_self_unit": true
+   },
+   "hit_effect": {
+       "type": "bunch",
+       "interrupt": null,
+       "targeting": null,
+       "impact": null,
+       "instant": [
+           {
+               "type": "heal",
+               "interrupt": null,
+               "targeting": null,
+               "impact": null,
+               "player_heal": 75,
+               "world_heal": 0,
+               "armor_amount": 0
+           }
+       ],
+       "constant": [
+           "effect_antimatter_shield_reactive"
+       ]
+   },
+   "category": "ability",
+   "hercules_metadata": {
+       "timestamp": "201412181042488158",
+       "user": "serkansanver",
+       "prev_rev": "2-226da047dbd70b44c234c39b63bdb1ca"
+   },
+   "name": {
+       "data": {
+           "en": "Antimatter Reaction"
+       }
+   },
+   "description": {
+       "data": {
+           "en": "Attacks against you trigger a reactive damage AoE."
+       }
+   },
+   "cooldown": 30,
+   "scope": "public"
+}

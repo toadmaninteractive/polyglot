@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="ru">
+    <document name="badge_border_cogwheel_gears">
+        <entry path="name" valid="true">
+            <original>Grinding Gears</original>
+            <translation>Отточенный механизм!</translation>
+        </entry>
+    </document>
+    <document name="badge_border_cogwheel_gears_xx">
+        <entry path="name" valid="true">
+            <original>Gears XX</original>
+            <translation>Большой Механизм!!!</translation>
+        </entry>
+    </document>
+    <document name="badge_border_with_empty_translation">
+        <entry path="name" valid="true">
+            <original>Grinding Gears</original>
+            <translation></translation>
+        </entry>
+    </document>
+	<document name="gear_boxer_blitz_stance">
+		<entry path="name" valid="true">
+			<original>Blitz Stance</original>
+			<translation>Стойка Молния</translation>
+		</entry>
+		<entry path="description" valid="true">
+			<original>Quick punches on the left click, dash attack on the right click. Dash attack can be charged up for an improved dash with longer range and splash damage.</original>
+			<translation></translation>
+		</entry>
+	</document>
+	<document name="gear_boxer_blitz_stance_old">
+		<entry path="name" valid="true">
+			<original>Blitz Stance</original>
+			<translation>Стойка Молния</translation>
+		</entry>
+		<entry path="description" valid="true">
+			<original>Quick punches coupled with a dash attack on the right click.</original>
+			<translation></translation>
+		</entry>
+	</document>
+	<document name="badge_border_eliza_cells">
+		<entry path="name" valid="true">
+			<original>Cells</original>
+			<translation>Клетки!!!</translation>
+		</entry>
+	</document>
+    <document name="global_logic">
+        <entry path="tips_logic.tips[0]" valid="true">
+            <original>You can customize your key bindings in the settings menu.</original>
+            <translation>Вы можете редактировать клавиши в меню настроек......</translation>
+        </entry>
+        <entry path="tips_logic.tips[1]" valid="true">
+            <original>Jumping maintains your momentum, so you can sprint and jump for a longer leap. This rule also applies to speed and bounce pads.</original>
+            <translation>Прыжки сохраняют вашу скорость, так вы можете бежать и делать большие прыжки.Это правило также относится к скоростным и пружинным блокам.</translation>
+        </entry>
+        <entry path="tips_logic.tips[2]" valid="true">
+            <original>Supply drops award all of your teammates a sizeable amount of bricks. Try to pick them up before your enemies do.</original>
+            <translation>Ящик с ресурсами награждает всю вашу команду определенным кол-вом Ресурсов. Попробуйте поднять его, прежде чем ваши враги.......</translation>
+        </entry>
+        <entry path="tips_logic.tips[3]" valid="true">
+            <original>All player-built blocks can be salvaged for half of their building cost.</original>
+            <translation>Все построеные игроками блоки могут быть сняты, при этом вы получите половину их стоймости.</translation>
+        </entry>
+        <entry path="tips_logic.tips[4]" valid="true">
+            <original>You can't shoot, but you can reload while sprinting.</original>
+            <translation>Во время бега вы не можете стрелять, но можете без проблем перезаряжаться.</translation>
+        </entry>
+        <entry path="tips_logic.tips[5]" valid="true">
+            <original>You can quickly sprint up hills or stairs without jumping.</original>
+            <translation>Вы можете быстро пробежать в гору или по лестницам без прыжка.</translation>
+        </entry>
+        <entry path="tips_logic.tips[6]" valid="true">
+            <original>Running, jumping and crouching will modify the accuracy on most weapons. Try to find the right shooting conditions for your playstyle.</original>
+            <translation>Бег, прыжки и присидания изменяют точность большинства оружия. Попробуйте найти правильный способ стрельбы для вашего стиля игры.</translation>
+        </entry>
+        <entry path="tips_logic.tips[7]" valid="true">
+            <original>There is a damage fall-off factor on most weapons. Shooting an enemy at close range will usually do more damage than taking pot shots at them from a distance.</original>
+            <translation>Существует ухудшение урона на дальности для большенства оружия. Стрельба по врагу вблизи обычно наносит больше урона, чем стрельба  из такого же оружия с дистанции.</translation>
+        </entry>
+        <entry path="tips_logic.tips[8]" valid="true">
+            <original>Some weapons do different amounts of damage to heroes and blocks.</original>
+            <translation>Некоторое оружие более эффективно против героев, а некоторое против блоков</translation>
+        </entry>
+        <entry path="tips_logic.tips[9]" valid="true">
+            <original>If your opponents have set up a powerful defense line, try using indirect fire (grenades, mortar) to weaken their defenses before you charge in.</original>
+            <translation>Если ваш противник имеет мощную линию обороны, попробуйте обстрелять (гранатами,мортирами,ракетами) чтобы разрушить их защиту перед атакой.</translation>
+        </entry>
+        <entry path="tips_logic.tips[10]" valid="true">
+            <original>Some weapons have an altfire function instead of aiming down the sights. The main and alt fire functions of a weapon are shown on the right of the HUD.</original>
+            <translation>Некоторое оружие имеет альтранативные функции кроме прицельвания. Основной и альтранативный огонь оружия показан справа на панеле.</translation>
+        </entry>
+        <entry path="tips_logic.tips[11]" valid="true">
+            <original>Cube Generators must be destroyed in order to make the Cube Core vulnerable.</original>
+            <translation>Генераторы должны быть уничтожены по порядку чтобы сделать Базу уязвимой</translation>
+        </entry>
+        <entry path="tips_logic.tips[12]" valid="true">
+            <original>Press TAB while chatting to switch between team chat and general chat.</original>
+            <translation>Нажмите TAB когда общаетесь чтобы поменять командный и главный чат.</translation>
+        </entry>
+        <entry path="tips_logic.tips[13]" valid="true">
+            <original>Bombs can be defused by mining them with your tool.</original>
+            <translation>Бомбы могут быть обезврежены вашим инструментом</translation>
+        </entry>
+        <entry path="tips_logic.tips[14]" valid="true">
+            <original>Heroes are split into three groups and each group has some blocks only available to their group. Other blocks are available to all heroes.</original>
+            <translation>Герои разделяются на три группы и каждая имеет особенные блоки для их группы. Остальные блоки доступны всем героям.</translation>
+        </entry>
+        <entry path="tips_logic.tips[15]" valid="true">
+            <original>Explosive damage is absorbed by nearby blocks. So if you hide behind sturdy blocks like concrete, bricks or sandbags they will take damage first.</original>
+            <translation>Взрывной урон поглащается ближайшими блоками. Поэтому если вы спрячитесь за стеной блоков как бетон, кирпичи, или мешки с песком они получат урон первыми.</translation>
+        </entry>
+        <entry path="tips_logic.tips[16]" valid="true">
+            <original>The healing effect from the heal crate does not stack with itself. Same applies to the ammo crate.</original>
+            <translation>Эффект лечения из Исцеляющего блока не соединяется со своим. Тоже самое относится к Ящику боеприпасов.</translation>
+        </entry>
+        <entry path="tips_logic.tips[17]" valid="true">
+            <original>When assaulting enemy defenses, try to establish a small forward base. Just one heal block planted in a hole in the ground can make a difference. </original>
+            <translation>Когда осаждаете вражескую базу, попробуйте установить маленькую базу передой помощи. Даже один Исцеляющий блок на земле способен принести победу.</translation>
+        </entry>
+        <entry path="tips_logic.tips[18]" valid="true">
+            <original>If you build chains of speed blocks, try putting mines between your speed pads to deny their use to your opponents. </original>
+            <translation>Если вы строите цепочку из скоросных блоков, попробуйте установить между ними мины, чтобы предотвратить использование врагом.</translation>
+        </entry>
+        <entry path="tips_logic.tips[19]" valid="true">
+            <original>Be careful when using mines. Building a bunch of mines that can be easily shot by your opponents is the same as building free bombs for your opponents to use.</original>
+            <translation>Будь внимательным когда используешь мины. Постройки из мин могут стать легкой целью для вашего противника, и враг сможет взорвать вас на вашей же ловушке. </translation>
+        </entry>
+        <entry path="tips_logic.tips[20]" valid="true">
+            <original>The false block takes on the appearance of the block it is built on. When an enemy steps on it, the false block breaks open. You can dig some trap pits and cover them up with false blocks.</original>
+            <translation>Блок-Обманка принимает вид блока на котором он построен. Когда враг вступает на него, Блок-Обманка пропадает. Вы можете делать ямы ловушки покрытые Блоками-Обманками.</translation>
+        </entry>
+        <entry path="tips_logic.tips[21]" valid="true">
+            <original>The force gate block lets friendly teammates through. Use it to build a door to your fortifications that enemies can't get through. Alternatively you can build stairs behind your walls.</original>
+            <translation>Врата из силовых блоков может пропустить вашего союзника через себя. Используйте эти блоки для дверей вашего форта, враг не сможет пройти.Также вы можете построить лестницу за вашей стеной.</translation>
+        </entry>
+        <entry path="tips_logic.tips[22]" valid="true">
+            <original>You can cover the area in front of your defensive walls with several rows of glue. This will give you time to stop enemy bombers when defending your wall.</original>
+            <translation>Вы можете покрыть пол перед вашими стенами клеем. Это даст вам больше времени чтобы убить врага.</translation>
+        </entry>
+        <entry path="tips_logic.tips[23]" valid="true">
+            <original>Caltrops will weaken enemies and give you the upper hand when defending.  Be careful, caltrops will also hurt your own team as well.</original>
+            <translation>Колючки могут дать превосходую зашиту против врага. Но будьте аккуратны, колючки могу поранить и вашу команду.</translation>
+        </entry>
+        <entry path="tips_logic.tips[24]" valid="true">
+            <original>Building a bounce pad next to a speed block, then sprinting into the combo will allow you to super-leap at the cost of a rough landing. You’ll take some fall damage.</original>
+            <translation>Постройте Пружинный блок перед скоростным блоком, вы сделаете супер прыжок, но получите немного урона от падения.</translation>
+        </entry>
+        <entry path="tips_logic.tips[25]" valid="true">
+            <original>If your enemies have deployed respawn pads near your base, try to find them and take them out as soon as possible.</original>
+            <translation>Если ваш враг установил точки воскрешения возле вашей базы, попробуйте найти их как можно быстрее и остановите наступление.</translation>
+        </entry>
+        <entry path="tips_logic.tips[26]" valid="true">
+            <original>Remember that you can build respawn pads underground, but you'll need 2 blocks of vertical space for the pad to work.</original>
+            <translation>Помните что вы можете строить точки респавна под землей, но необходимо 2 блока высотой чтобы точка работала.</translation>
+        </entry>
+        <entry path="tips_logic.tips[27]" valid="true">
+            <original>Use your role blocks to support your team with supplies, healing, improved mobility and tactical advantages.</original>
+            <translation>Используйте ваши ролевые блоки чтобы помочь вашей команде с припасами,лечением, улучшеной мобильностью и тактическим превосходством.</translation>
+        </entry>
+        <entry path="tips_logic.tips[28]" valid="true">
+            <original>Heroes have passive and active abilities. You can learn more about them in the main menu.</original>
+            <translation>Герои имеют пассивные и активные способности. Вы можете прочитать про них в главном меню.</translation>
+        </entry>
+        <entry path="tips_logic.tips[29]" valid="true">
+            <original>Remember to use Sarge Stone's frag grenade ability to finish off enemies taking cover.</original>
+            <translation>Используйте гранаты Сержанта чтобы выкурить врага из укрытия.</translation>
+        </entry>
+        <entry path="tips_logic.tips[30]" valid="true">
+            <original>Cogwheel is very tough but moves slowly.</original>
+            <translation>Шестеренка очень живучий, но очень медленный.</translation>
+        </entry>
+        <entry path="tips_logic.tips[31]" valid="true">
+            <original>Cogwheel's main fire modes are better at mid-range combat while the altfire modes are more suited to short range combat.</original>
+            <translation>Шестеренка из пулемёта основным режимом огня лучше ведёт бой на средней дистанции, альтранативный огонь поможет в ближнем бою.</translation>
+        </entry>
+        <entry path="tips_logic.tips[32]" valid="true">
+            <original>Nigel can take out enemy turrets safely from far away.</original>
+            <translation>Найджел может отстреливать вражеские турели из далека.</translation>
+        </entry>
+        <entry path="tips_logic.tips[33]" valid="true">
+            <original>Enemies spotted by Nigel are exposed to all teammates.</original>
+            <translation>Враг обнаруженый Найджелом отображается для всей команды.</translation>
+        </entry>
+        <entry path="tips_logic.tips[34]" valid="true">
+            <original>O.P. 'Juan' Shinobi can use wall climbing to get the drop on his enemies.</original>
+            <translation>Опи Хван Шиноби может бегать по стенам и убивать своих врагов где бы они не были. </translation>
+        </entry>
+        <entry path="tips_logic.tips[35]" valid="true">
+            <original>Try strafing around your enemies while you attack them with O.P. 'Juan' Shinobi's sword.</original>
+            <translation>Опи Хван Шиноби очень эффективно атакует мечом когда бегает вокруг врага.</translation>
+        </entry>
+        <entry path="tips_logic.tips[36]" valid="true">
+            <original>O.P. 'Juan' Shinobi can use hit and run tactics to wear down enemies with his bleeding attacks and active ability.</original>
+            <translation>Опи Хван Шиноби может использывать тактику "бей и беги" кровотечение нанесёт урон а активная способность поможет убежать.</translation>
+        </entry>
+        <entry path="tips_logic.tips[37]" valid="true">
+            <original>Tony Turretto can repair blocks and repair and buff his turrets with the caulk gun.</original>
+            <translation>Тони Турретто может ремонтировать блоки. Также он может ремонтировать и улучшать свои турели Супер-Клей Пушкой.</translation>
+        </entry>
+        <entry path="tips_logic.tips[38]" valid="true">
+            <original>Tony Turretto can quickly establish a forward base with his active ability.</original>
+            <translation>Тони Турретто может быстро обустроить базу с помошью активной способности.</translation>
+        </entry>
+        <entry path="tips_logic.tips[39]" valid="true">
+            <original>Doc Eliza can lob acid bubbles over enemy walls with the Globe Gun alt-fire.</original>
+            <translation>Док Элиза может закидывать снаряды за стены Альтранативным Огнем Кислотной Пушки. </translation>
+        </entry>
+        <entry path="tips_logic.tips[40]" valid="true">
+            <original>Doc Eliza can force enemies out of a fortified position with her Chem Grenades.</original>
+            <translation>Док Элиза может заставить врагов покинуть убежище с помощью химической гранаты.</translation>
+        </entry>
+        <entry path="tips_logic.tips[41]" valid="true">
+            <original>Doc Eliza is good at pushing forward with her team and keeping them alive.</original>
+            <translation>Док Элиза хороша в наступлении, она не даст союзникам умереть.</translation>
+        </entry>
+    </document>
+    <document name="strings">
+        <entry path="strings.your_selected_block_deck" valid="true">
+            <original>YOUR SELECTED BLOCK DECK</original>
+            <translation>ВАШ НАБОР БЛОКОВ111111111</translation>
+        </entry>
+        <entry path="strings.sudden_death" valid="true">
+            <original>Sudden Death</original>
+            <translation>Внезапная смерть</translation>
+        </entry>
+        <entry path="strings.time_is_running_out" valid="true">
+            <original>Time is running out</original>
+            <translation>Время на исходе</translation>
+        </entry>
+        <entry path="strings.m" valid="true">
+            <original>M</original>
+            <translation>М</translation>
+        </entry>
+        <entry path="strings.alert_no_message" valid="true">
+            <original>Alert no message</original>
+            <translation>Сообщений нет</translation>
+        </entry>
+        <entry path="strings.no_message" valid="true">
+            <original>no message</original>
+            <translation>Сообщений нет</translation>
+        </entry>
+        <entry path="strings.bricks" valid="true">
+            <original>bricks</original>
+            <translation>ресурсы</translation>
+        </entry>
+        <entry path="strings.players_are_now_earning_more_blocks" valid="true">
+            <original>Players are now earning more bricks</original>
+            <translation>Игроки теперь получают больше ресурсов</translation>
+        </entry>
+        <entry path="strings.your_team_surrendered" valid="true">
+            <original>Your team surrendered!</original>
+            <translation>Ваша команда сдалась!</translation>
+        </entry>
+        <entry path="strings.your_team_didn_t_surrender" valid="true">
+            <original>Your team didn't surrender!</original>
+            <translation>Ваша команда отказалась сдаваться</translation>
+        </entry>
+        <entry path="strings.opponent_team_surrendered" valid="true">
+            <original>Opponent team surrendered!</original>
+            <translation>Вражеская команда сдалась!</translation>
+        </entry>
+        <entry path="strings.lobby" valid="true">
+            <original>LOBBY</original>
+            <translation>ЛОББИ</translation>
+        </entry>
+        <entry path="strings.match" valid="true">
+            <original>MATCH</original>
+            <translation>МАТЧ</translation>
+        </entry>
+        <entry path="strings.loading" valid="true">
+            <original>LOADING</original>
+            <translation>ЗАГРУЗКА</translation>
+        </entry>
+        <entry path="strings.game_started" valid="true">
+            <original>game started</original>
+            <translation>игра стартовала</translation>
+        </entry>
+        <entry path="strings.new_match" valid="true">
+            <original>New Match</original>
+            <translation>Новый Матч</translation>
+        </entry>
+        <entry path="strings.lobby_map_label" valid="true">
+            <original>MAP</original>
+            <translation>КАРТА</translation>
+        </entry>
+        <entry path="strings.close" valid="true">
+            <original>CLOSE</original>
+            <translation>ЗАКРЫТЬ</translation>
+        </entry>
+        <entry path="strings.player_name" valid="true">
+            <original>PLAYER NAME</original>
+            <translation>ИМЯ ИГРОКА</translation>
+        </entry>
+        <entry path="strings.rank" valid="true">
+            <original>RANK</original>
+            <translation>РАНГ</translation>
+        </entry>
+        <entry path="strings.wins" valid="true">
+            <original>WINS</original>
+            <translation>ПОБЕДЫ</translation>
+        </entry>
+        <entry path="strings.total" valid="true">
+            <original>TOTAL</original>
+            <translation>ВСЕГО</translation>
+        </entry>
+        <entry path="strings.region" valid="true">
+            <original>REGION</original>
+            <translation>РЕГИОН</translation>
+        </entry>
+        <entry path="strings.friends_only" valid="true">
+            <original>FRIENDS ONLY</original>
+            <translation>ТОЛЬКО ДЛЯ ДРУЗЕЙ</translation>
+        </entry>
+        <entry path="strings.next_page" valid="true">
+            <original>NEXT PAGE</original>
+            <translation>СЛЕДУЮЩАЯ СТРАНИЦА</translation>
+        </entry>
+        <entry path="strings.prev_page" valid="true">
+            <original>PREV PAGE</original>
+            <translation>ПРЕДЫДУЩАЯ СТРАНИЦА</translation>
+        </entry>
+        <entry path="strings.players" valid="true">
+            <original>Players</original>
+            <translation>Игроки</translation>
+        </entry>
+        <entry path="strings.leaderboards" valid="true">
+            <original>Leaderboards</original>
+            <translation>Лидеры</translation>
+        </entry>
+        <entry path="strings.settings" valid="true">
+            <original>SETTINGS</original>
+            <translation>НАСТРОЙКИ</translation>
+        </entry>
+        <entry path="strings.hero_squad" valid="true">
+            <original>HERO SQUAD</original>
+            <translation>ОТРЯД ГЕРОЕВ</translation>
+        </entry>
+        <entry path="strings.waiting_for_other_players" valid="true">
+            <original>Waiting for other players</original>
+            <translation>Ожидание других игроков</translation>
+        </entry>
+        <entry path="strings.construction" valid="true">
+            <original>CONSTRUCTION</original>
+            <translation>СООРУЖЕНИЯ</translation>
+        </entry>
+        <entry path="strings.tactic" valid="true">
+            <original>TACTIC</original>
+            <translation>ТАКТИКА</translation>
+        </entry>
+        <entry path="strings.warfare" valid="true">
+            <original>WARFARE</original>
+            <translation>ВОЙНА</translation>
+        </entry>
+        <entry path="strings.healing" valid="true">
+            <original>HEALING</original>
+            <translation>ЛЕЧЕНИЕ</translation>
+        </entry>
+        <entry path="strings.choose_your_respawn_point" valid="true">
+            <original>Choose Your Respawn Point</original>
+            <translation>Выберите точку возрождения</translation>
+        </entry>
+        <entry path="strings.spawn_point_blocked_by_other_player" valid="true">
+            <original>Respawn point blocked by another player</original>
+            <translation>Точка возрождения заблокирована другими игроками</translation>
+        </entry>
+        <entry path="strings.you_not_respawn_until_it_will_be_free_you_can_choose_another_point" valid="true">
+            <original>You can't respawn until the respawn point is free. You can choose another one.</original>
+            <translation>Вы не можете возродиться пока точка занята.Вы можете выбрать другую.</translation>
+        </entry>
+        <entry path="strings.you_have_no_spawn_point" valid="true">
+            <original>You have no respawn point selected</original>
+            <translation>Вы не выбрали точку возрождения</translation>
+        </entry>
+        <entry path="strings.you_not_respawn_until_you_choose_spawn_point" valid="true">
+            <original>You cannot respawn until you choose a respawn point</original>
+            <translation>Вы не можете возродится пока не выберете точку возрождения</translation>
+        </entry>
+        <entry path="strings.spawn_point_blocked_by_worlds_objects" valid="true">
+            <original>Respawn point blocked by world objects</original>
+            <translation>Точка возрождения заблокирована объектами мира</translation>
+        </entry>
+        <entry path="strings.you_not_respawn_until_it_will_be_clear_you_can_choose_another_point" valid="true">
+            <original>You can't respawn until the respawn point is clear. You can choose another one.</original>
+            <translation>Вы не можете возродится пока точку не зачистят.Вы можете выбрать другую.</translation>
+        </entry>
+        <entry path="strings.prepare_your_base" valid="true">
+            <original>Prepare your base</original>
+            <translation>Приготовьте вашу базу</translation>
+        </entry>
+        <entry path="strings.surrender" valid="true">
+            <original>SURRENDER</original>
+            <translation>СДАТЬСЯ</translation>
+        </entry>
+        <entry path="strings.press_y" valid="true">
+            <original>Press 'Y' to vote YES!</original>
+            <translation>Нажмите 'Y' чтобы голосовать ДА!</translation>
+        </entry>
+        <entry path="strings.press_n" valid="true">
+            <original>Press 'N' to vote NO!</original>
+            <translation>Нажмите 'N' чтобы голосовать НЕТ! </translation>
+        </entry>
+        <entry path="strings.seconds_to_respawn" valid="true">
+            <original>seconds to respawn</original>
+            <translation>секунд до возрождения</translation>
+        </entry>
+        <entry path="strings.switch_hero" valid="true">
+            <original>Switch Hero</original>
+            <translation>Поменять Героя</translation>
+        </entry>
+        <entry path="strings.ready" valid="true">
+            <original>READY</original>
+            <translation>ГОТОВ</translation>
+        </entry>
+        <entry path="strings.cancel" valid="true">
+            <original>Cancel</original>
+            <translation>Отмена</translation>
+        </entry>
+        <entry path="strings.recalling" valid="true">
+            <original>RECALLING</original>
+            <translation>ОТЗЫВАНИЕ</translation>
+        </entry>
+        <entry path="strings.mouse_look" valid="true">
+            <original>MOUSE LOOK</original>
+            <translation>ОБЗОР МЫШЬЮ</translation>
+        </entry>
+        <entry path="strings.recall" valid="true">
+            <original>RECALL</original>
+            <translation>ОТЗЫВ</translation>
+        </entry>
+        <entry path="strings.resume_game" valid="true">
+            <original>RESUME GAME</original>
+            <translation>ПРОДОЛЖИТЬ</translation>
+        </entry>
+        <entry path="strings.menu" valid="true">
+            <original>menu</original>
+            <translation>меню</translation>
+        </entry>
+        <entry path="strings.go_back" valid="true">
+            <original>Go back</original>
+            <translation>Вернуться</translation>
+        </entry>
+        <entry path="strings.brawn" valid="true">
+            <original>BRAWN</original>
+            <translation>МУСКУЛЫ</translation>
+        </entry>
+        <entry path="strings.skill" valid="true">
+            <original>SKILL</original>
+            <translation>УМЕНИЕ</translation>
+        </entry>
+        <entry path="strings.brains" valid="true">
+            <original>BRAINS</original>
+            <translation>МОЗГИ</translation>
+        </entry>
+        <entry path="strings.ground_tool" valid="true">
+            <original>Ground Tool</original>
+            <translation></translation>
+        </entry>
+        <entry path="strings.special_device" valid="true">
+            <original>Special Device</original>
+            <translation>Специальное Устройство</translation>
+        </entry>
+        <entry path="strings.passive_ability" valid="true">
+            <original>Passive Ability</original>
+            <translation>Пассивная Способность</translation>
+        </entry>
+        <entry path="strings.active_ability" valid="true">
+            <original>Active Ability</original>
+            <translation>Активная Способность</translation>
+        </entry>
+        <entry path="strings.first_weapon" valid="true">
+            <original>First Weapon</original>
+            <translation>Основное Оружие</translation>
+        </entry>
+        <entry path="strings.second_weapon" valid="true">
+            <original>Second Weapon</original>
+            <translation>Дополнительное Оружие</translation>
+        </entry>
+        <entry path="strings.select_your_skin" valid="true">
+            <original>SELECT YOUR SKIN!</original>
+            <translation>ВЫБЕРЕТЕ ВАШ КОСТЮМ</translation>
+        </entry>
+        <entry path="strings.player_left_the_queue" valid="true">
+            <original>{0} selected Leave Queue. Please requeue.</original>
+            <translation>{0} выбрать Покинуть Очередь. Пожалуйста перезайдите в очередь.</translation>
+        </entry>
+        <entry path="strings.toughness" valid="true">
+            <original>Toughness</original>
+            <translation>Живучесть</translation>
+        </entry>
+        <entry path="strings.mobility" valid="true">
+            <original>Mobility</original>
+            <translation>Мобильность</translation>
+        </entry>
+        <entry path="strings.complexity" valid="true">
+            <original>Complexity</original>
+            <translation>Сложность</translation>
+        </entry>
+        <entry path="strings.conection_lost" valid="true">
+            <original>Connection lost</original>
+            <translation>Соединение потеряно</translation>
+        </entry>
+        <entry path="strings.relogin" valid="true">
+            <original>Relogin</original>
+            <translation>Перезайти</translation>
+        </entry>
+        <entry path="strings.lobby_notify" valid="true">
+            <original>PICK YOUR CHARACTER!</original>
+            <translation>ВЫБЕРЕТЕ ВАШЕГО ПЕРСОНАЖА!</translation>
+        </entry>
+        <entry path="strings.lobby_hero_not_selected" valid="true">
+            <original>hero not selected</original>
+            <translation>герой не выбран</translation>
+        </entry>
+        <entry path="strings.hud_prepare_for_battle" valid="true">
+            <original>Prepare for Battle</original>
+            <translation>Приготовьтесь к Битве</translation>
+        </entry>
+        <entry path="strings.hud_exp_to_next_rank" valid="true">
+            <original>to next rank</original>
+            <translation>до следуюшего ранга</translation>
+        </entry>
+        <entry path="strings.button_ok" valid="true">
+            <original>OK</original>
+            <translation>ОК</translation>
+        </entry>
+        <entry path="strings.do_you_want_to_leave_lobby_game" valid="true">
+            <original>If you abandon your teammates now your Merit will be decreased! Are you sure you want to leave?</original>
+            <translation>Если вы покинете команду то ваша честь будет уменьшена! Вы уверите что хотите выйти?</translation>
+        </entry>
+        <entry path="strings.player_level" valid="true">
+            <original>Player Level</original>
+            <translation>Уровень Игрока</translation>
+        </entry>
+        <entry path="strings.league_rank" valid="true">
+            <original>League Rank</original>
+            <translation>Ранг в Лиге</translation>
+        </entry>
+        <entry path="strings.bronze" valid="true">
+            <original>BRONZE</original>
+            <translation>БРОНЗА</translation>
+        </entry>
+        <entry path="strings.silver" valid="true">
+            <original>SILVER</original>
+            <translation>СЕРЕБРО</translation>
+        </entry>
+        <entry path="strings.gold" valid="true">
+            <original>GOLD</original>
+            <translation>ЗОЛОТО</translation>
+        </entry>
+        <entry path="strings.platinum" valid="true">
+            <original>PLATINUM</original>
+            <translation>ПЛАТИНА</translation>
+        </entry>
+        <entry path="strings.total_wins" valid="true">
+            <original>Total Wins</original>
+            <translation>Всего Побед</translation>
+        </entry>
+        <entry path="strings.block_built" valid="true">
+            <original>Blocks Built</original>
+            <translation>Блоков Построено</translation>
+        </entry>
+        <entry path="strings.bricks_earned" valid="true">
+            <original>Bricks Earned</original>
+            <translation>Ресурсов Получено</translation>
+        </entry>
+        <entry path="strings.objective_damage_dealt" valid="true">
+            <original>Objective Damage Dealt</original>
+            <translation>Нанесено урона объектам</translation>
+        </entry>
+        <entry path="strings.win_rate" valid="true">
+            <original>WIN RATE</original>
+            <translation>РЕЙТИНГ ПОБЕД</translation>
+        </entry>
+        <entry path="strings.kills" valid="true">
+            <original>Kills</original>
+            <translation>УБИЙСТВА</translation>
+        </entry>
+        <entry path="strings.deaths" valid="true">
+            <original>Deaths</original>
+            <translation>Смерти</translation>
+        </entry>
+        <entry path="strings.assists" valid="true">
+            <original>Assists</original>
+            <translation>Поддержек</translation>
+        </entry>
+        <entry path="strings.block_assist" valid="true">
+            <original>Block Assist</original>
+            <translation>Помощь Блоками</translation>
+        </entry>
+        <entry path="strings.bricks_used" valid="true">
+            <original>Bricks Used</original>
+            <translation>Ресурсов Использовано</translation>
+        </entry>
+        <entry path="strings.objective_damage" valid="true">
+            <original>Objective Damage</original>
+            <translation>Урон Объектами</translation>
+        </entry>
+        <entry path="strings.hero" valid="true">
+            <original>Hero</original>
+            <translation>Герой</translation>
+        </entry>
+        <entry path="strings.requires_level" valid="true">
+            <original>Requires Level</original>
+            <translation>Требуется Уровень</translation>
+        </entry>
+        <entry path="strings.league_leaderboards" valid="true">
+            <original>LEAGUE LEADERBOARDS</original>
+            <translation>ЛИДЕРЫ ЛИГИ</translation>
+        </entry>
+        <entry path="strings.position" valid="true">
+            <original>Position</original>
+            <translation>Позиция</translation>
+        </entry>
+        <entry path="strings.name" valid="true">
+            <original>Name</original>
+            <translation>Имя</translation>
+        </entry>
+        <entry path="strings.division" valid="true">
+            <original>DIVISION</original>
+            <translation>ОТДЕЛЕНИЕ</translation>
+        </entry>
+        <entry path="strings.indicators" valid="true">
+            <original>Indicators</original>
+            <translation>Индикаторы</translation>
+        </entry>
+        <entry path="strings.nobody_found" valid="true">
+            <original>Nobody Found</original>
+            <translation>Никого не найдено</translation>
+        </entry>
+        <entry path="strings.game_overview" valid="true">
+            <original>GAME OVERVIEW</original>
+            <translation>ОБЗОР ИГРЫ</translation>
+        </entry>
+        <entry path="strings.class" valid="true">
+            <original>CLASS</original>
+            <translation>КЛАСС</translation>
+        </entry>
+        <entry path="strings.weapon" valid="true">
+            <original>Weapon</original>
+            <translation>Оружие</translation>
+        </entry>
+        <entry path="strings.skills" valid="true">
+            <original>Skills</original>
+            <translation>Умения</translation>
+        </entry>
+        <entry path="strings.tool" valid="true">
+            <original>Tool</original>
+            <translation>Инструмент</translation>
+        </entry>
+        <entry path="strings.block" valid="true">
+            <original>Block</original>
+            <translation>Блок</translation>
+        </entry>
+        <entry path="strings.game_browser" valid="true">
+            <original>GAME BROWSER</original>
+            <translation>ОБЗОР ИГРЫ</translation>
+        </entry>
+        <entry path="strings.search" valid="true">
+            <original>Search</original>
+            <translation>Поиск</translation>
+        </entry>
+        <entry path="strings.game_name" valid="true">
+            <original>Game Name</original>
+            <translation>Название Игры</translation>
+        </entry>
+        <entry path="strings.game_starter" valid="true">
+            <original>Game Starter</original>
+            <translation>Владелец Игры</translation>
+        </entry>
+        <entry path="strings.slots" valid="true">
+            <original>Slots</original>
+            <translation>Слоты</translation>
+        </entry>
+        <entry path="strings.map_name" valid="true">
+            <original>Map Name</original>
+            <translation>Название Карты</translation>
+        </entry>
+        <entry path="strings.game_browser_game_details" valid="true">
+            <original>Game Details</original>
+            <translation>Детали Игры</translation>
+        </entry>
+        <entry path="strings.build_time" valid="true">
+            <original>Build Time</original>
+            <translation>Время Строительства</translation>
+        </entry>
+        <entry path="strings.max_respawn_time" valid="true">
+            <original>Max Respawn Time</original>
+            <translation>Максимальное Время Возрождения</translation>
+        </entry>
+        <entry path="strings.hero_switching" valid="true">
+            <original>Hero Switching</original>
+            <translation>Смена Героя</translation>
+        </entry>
+        <entry path="strings.super_supply_drops" valid="true">
+            <original>Super Supply Drops</original>
+            <translation>Супер Ящики с Ресурсами</translation>
+        </entry>
+        <entry path="strings.refresh" valid="true">
+            <original>Refresh</original>
+            <translation>Обновить</translation>
+        </entry>
+        <entry path="strings.create_game" valid="true">
+            <original>Create Game</original>
+            <translation>Создать Игру</translation>
+        </entry>
+        <entry path="strings.join" valid="true">
+            <original>Join</original>
+            <translation>Присоединиться</translation>
+        </entry>
+        <entry path="strings.match_options" valid="true">
+            <original>MATCH OPTIONS</original>
+            <translation>ОПЦИИ МАТЧА</translation>
+        </entry>
+        <entry path="strings.start_game" valid="true">
+            <original>Start Game</original>
+            <translation>Начать Игру</translation>
+        </entry>
+        <entry path="strings.password" valid="true">
+            <original>Password</original>
+            <translation>Пароль</translation>
+        </entry>
+        <entry path="strings.enter_password" valid="true">
+            <original>Enter Password</original>
+            <translation>Введите Пароль</translation>
+        </entry>
+        <entry path="strings.joining_to_game" valid="true">
+            <original>Joining game</original>
+            <translation>Присоединение к игре</translation>
+        </entry>
+        <entry path="strings.connecting" valid="true">
+            <original>Connecting...</original>
+            <translation>Присоединение...</translation>
+        </entry>
+        <entry path="strings.votes" valid="true">
+            <original>votes</original>
+            <translation>голосов</translation>
+        </entry>
+        <entry path="strings.left_click_to_skip" valid="true">
+            <original>left click to skip</original>
+            <translation>левый клик чтобы пропустить</translation>
+        </entry>
+        <entry path="strings.exit_confirmation" valid="true">
+            <original>Are you sure you want to exit Block N Load?</original>
+            <translation>Вы уверены что хотите выйти из Block N Load?</translation>
+        </entry>
+        <entry path="strings.custom_game_enter" valid="true">
+            <original>Enter</original>
+            <translation>Войти</translation>
+        </entry>
+        <entry path="strings.exit" valid="true">
+            <original>Exit</original>
+            <translation>Выйти</translation>
+        </entry>
+        <entry path="strings.latency" valid="true">
+            <original>Ping</original>
+            <translation>Пинг</translation>
+        </entry>
+        <entry path="strings.squad_invitation_declined" valid="true">
+            <original>{0} declined your invitation.</original>
+            <translation>{0} отказался от вашего приглашения</translation>
+        </entry>
+        <entry path="strings.confirm_invitation_to_squad" valid="true">
+            <original>{0} has invited you to join a squad. Accept?</original>
+            <translation>{0} пригласил вас в отряд. Согласиться?</translation>
+        </entry>
+        <entry path="strings.squad_invitee_in_match" valid="true">
+            <original>{0} is already in a match and cannot accept your invitation.</original>
+            <translation>{0} сейчас в игре и не может принять ваше приглашение.</translation>
+        </entry>
+        <entry path="strings.build_time_tooltip" valid="true">
+            <original>Set the duration for the initial ceasefire period.</original>
+            <translation>Установите продолжительность мирного периода</translation>
+        </entry>
+        <entry path="strings.max_respawn_time_tooltip" valid="true">
+            <original>Set the maximum respawn time.</original>
+            <translation>Установите максимальное время респавна.</translation>
+        </entry>
+        <entry path="strings.hero_switching_tooltip" valid="true">
+            <original>Enable or disable hero switching on the respawn screen.</original>
+            <translation>Включите или выключите смену героя на экране респавна.</translation>
+        </entry>
+        <entry path="strings.super_supply_drops_tooltip" valid="true">
+            <original>Enable or disable super supply drops.</original>
+            <translation>Включить или выключить падение супер ящиков с ресурсами.</translation>
+        </entry>
+        <entry path="strings.squad_already_in_squad" valid="true">
+            <original>You can't invite this player.</original>
+            <translation>Вы не можете пригласить этого игрока.</translation>
+        </entry>
+        <entry path="strings.your_merit_decreased_by_reports" valid="true">
+            <original>Your merit has been reduced for being reported multiple times.</original>
+            <translation>Ваша честь была уменьшена из-за жалоб на вас.</translation>
+        </entry>
+        <entry path="strings.your_merit_decreased_lobby_leave" valid="true">
+            <original>Your merit has been decreased for leaving a match.</original>
+            <translation>Ваша честь была уменьшена из-за того что вы покинули матч.</translation>
+        </entry>
+        <entry path="strings.your_merit_decreased_by_afk_in_queue" valid="true">
+            <original>You have repeatedly failed to accept a match. Your merit has been decreased.</original>
+            <translation>Вы несколько раз не приняли приглашение в матч. Ваша честь была уменьшена.</translation>
+        </entry>
+        <entry path="strings.input_type_here" valid="true">
+            <original>Type Here</original>
+            <translation>Напишите здесь</translation>
+        </entry>
+        <entry path="strings.unranked" valid="true">
+            <original>UNRANKED</original>
+            <translation></translation>
+        </entry>
+        <entry path="strings2.your_selected_block_deck2" valid="true">
+            <original>YOUR SELECTED BLOCK DECK 2</original>
+            <translation>ВАШ НАБОР БЛОКОВ</translation>
+        </entry>
+    </document>
+	<document name="strings_chat">
+		<entry path="strings.chat_ban_reason_generic" valid="true">
+			<original>You've been banned from the chat.</original>
+			<translation>Вы были забанены в этом чате.</translation>
+		</entry>
+		<entry path="strings.chat_ban_reason_inappropriate_behaviour" valid="true">
+			<original>You've been banned from the chat for inappropriate or offensive behaviour</original>
+			<translation>Вы были забанены в этом чате за неправильное или оскорбительное поведение</translation>
+		</entry>
+		<entry path="strings.chat_ban_reason_bullying" valid="true">
+			<original>You've been banned from the chat for bullying</original>
+			<translation>Вы были забанены в этом чате за запугивание</translation>
+		</entry>
+		<entry path="strings.hud_player_alert_needs_help_chat" valid="true">
+			<original>NEEDS HELP</original>
+			<translation>НУЖНА ПОМОЩЬ</translation>
+		</entry>
+		<entry path="strings.hud_player_alert_building" valid="true">
+			<original>BUILDING</original>
+			<translation>СТРОИМ</translation>
+		</entry>
+		<entry path="strings.hud_player_alert_needs_help" valid="true">
+			<original>NEEDS HELP</original>
+			<translation>НУЖНА ПОМОЩЬ</translation>
+		</entry>
+	</document>
+</language>

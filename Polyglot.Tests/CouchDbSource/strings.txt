@@ -1,0 +1,1356 @@
+﻿{
+   "_id": "strings",
+   "_rev": "359-624c9d22bbb030552327e76210035f28",
+   "strings2": {
+       "your_selected_block_deck2": {
+           "text": "YOUR SELECTED BLOCK DECK 2",
+           "data": {
+               "ru": {
+                   "original": "YOUR SELECTED BLOCK DECK 2",
+                   "translation": "ВАШ НАБОР БЛОКОВ"
+               }
+           }
+       }
+   },
+   "strings": {
+       "your_selected_block_deck": {
+           "text": "YOUR SELECTED BLOCK DECK",
+           "data": {
+               "ru": {
+                   "original": "YOUR SELECTED BLOCK DECK",
+                   "translation": "ВАШ НАБОР БЛОКОВ111111111"
+               }
+           }
+       },
+       "sudden_death": {
+           "text": "Sudden Death",
+           "data": {
+               "ru": {
+                   "original": "Sudden Death",
+                   "translation": "Внезапная смерть"
+               }
+           }
+       },
+       "time_is_running_out": {
+           "text": "Time is running out",
+           "data": {
+               "ru": {
+                   "original": "Time is running out",
+                   "translation": "Время на исходе"
+               }
+           }
+       },
+       "m": {
+           "text": "M",
+           "data": {
+               "ru": {
+                   "original": "M",
+                   "translation": "М"
+               }
+           }
+       },
+       "alert_no_message": {
+           "text": "Alert no message",
+           "data": {
+               "ru": {
+                   "original": "Alert no message",
+                   "translation": "Сообщений нет"
+               }
+           }
+       },
+       "no_message": {
+           "text": "no message",
+           "data": {
+               "ru": {
+                   "original": "no message",
+                   "translation": "Сообщений нет"
+               }
+           }
+       },
+       "bricks": {
+           "text": "bricks",
+           "data": {
+               "ru": {
+                   "original": "bricks",
+                   "translation": "ресурсы"
+               }
+           }
+       },
+       "players_are_now_earning_more_blocks": {
+           "text": "Players are now earning more bricks",
+           "data": {
+               "ru": {
+                   "original": "Players are now earning more bricks",
+                   "translation": "Игроки теперь получают больше ресурсов"
+               }
+           }
+       },
+       "your_team_surrendered": {
+           "text": "Your team surrendered!",
+           "data": {
+               "ru": {
+                   "original": "Your team surrendered!",
+                   "translation": "Ваша команда сдалась!"
+               }
+           }
+       },
+       "your_team_didn_t_surrender": {
+           "text": "Your team didn't surrender!",
+           "data": {
+               "ru": {
+                   "original": "Your team didn't surrender!",
+                   "translation": "Ваша команда отказалась сдаваться"
+               }
+           }
+       },
+       "opponent_team_surrendered": {
+           "text": "Opponent team surrendered!",
+           "data": {
+               "ru": {
+                   "original": "Opponent team surrendered!",
+                   "translation": "Вражеская команда сдалась!"
+               }
+           }
+       },
+       "lobby": {
+           "text": "LOBBY",
+           "data": {
+               "ru": {
+                   "original": "LOBBY",
+                   "translation": "ЛОББИ"
+               }
+           }
+       },
+       "match": {
+           "text": "MATCH",
+           "data": {
+               "ru": {
+                   "original": "MATCH",
+                   "translation": "МАТЧ"
+               }
+           }
+       },
+       "loading": {
+           "text": "LOADING",
+           "data": {
+               "ru": {
+                   "original": "LOADING",
+                   "translation": "ЗАГРУЗКА"
+               }
+           }
+       },
+       "game_started": {
+           "text": "game started",
+           "data": {
+               "ru": {
+                   "original": "game started",
+                   "translation": "игра стартовала"
+               }
+           }
+       },
+       "new_match": {
+           "text": "New Match",
+           "data": {
+               "ru": {
+                   "original": "New Match",
+                   "translation": "Новый Матч"
+               }
+           }
+       },
+       "lobby_map_label": {
+           "text": "MAP",
+           "data": {
+               "ru": {
+                   "original": "MAP",
+                   "translation": "КАРТА"
+               }
+           }
+       },
+       "close": {
+           "text": "CLOSE",
+           "data": {
+               "ru": {
+                   "original": "CLOSE",
+                   "translation": "ЗАКРЫТЬ"
+               }
+           }
+       },
+       "player_name": {
+           "text": "PLAYER NAME",
+           "data": {
+               "ru": {
+                   "original": "PLAYER NAME",
+                   "translation": "ИМЯ ИГРОКА"
+               }
+           }
+       },
+       "rank": {
+           "text": "RANK",
+           "data": {
+               "ru": {
+                   "original": "RANK",
+                   "translation": "РАНГ"
+               }
+           }
+       },
+       "wins": {
+           "text": "WINS",
+           "data": {
+               "ru": {
+                   "original": "WINS",
+                   "translation": "ПОБЕДЫ"
+               }
+           }
+       },
+       "total": {
+           "text": "TOTAL",
+           "data": {
+               "ru": {
+                   "original": "TOTAL",
+                   "translation": "ВСЕГО"
+               }
+           }
+       },
+       "region": {
+           "text": "REGION",
+           "data": {
+               "ru": {
+                   "original": "REGION",
+                   "translation": "РЕГИОН"
+               }
+           }
+       },
+       "friends_only": {
+           "text": "FRIENDS ONLY",
+           "data": {
+               "ru": {
+                   "original": "FRIENDS ONLY",
+                   "translation": "ТОЛЬКО ДЛЯ ДРУЗЕЙ"
+               }
+           }
+       },
+       "next_page": {
+           "text": "NEXT PAGE",
+           "data": {
+               "ru": {
+                   "original": "NEXT PAGE",
+                   "translation": "СЛЕДУЮЩАЯ СТРАНИЦА"
+               }
+           }
+       },
+       "prev_page": {
+           "text": "PREV PAGE",
+           "data": {
+               "ru": {
+                   "original": "PREV PAGE",
+                   "translation": "ПРЕДЫДУЩАЯ СТРАНИЦА"
+               }
+           }
+       },
+       "players": {
+           "text": "Players",
+           "data": {
+               "ru": {
+                   "original": "Players",
+                   "translation": "Игроки"
+               }
+           }
+       },
+       "leaderboards": {
+           "text": "Leaderboards",
+           "data": {
+               "ru": {
+                   "original": "Leaderboards",
+                   "translation": "Лидеры"
+               }
+           }
+       },
+       "settings": {
+           "text": "SETTINGS",
+           "data": {
+               "ru": {
+                   "original": "SETTINGS",
+                   "translation": "НАСТРОЙКИ"
+               }
+           }
+       },
+       "hero_squad": {
+           "text": "HERO SQUAD",
+           "data": {
+               "ru": {
+                   "original": "HERO SQUAD",
+                   "translation": "ОТРЯД ГЕРОЕВ"
+               }
+           }
+       },
+       "waiting_for_other_players": {
+           "text": "Waiting for other players",
+           "data": {
+               "ru": {
+                   "original": "Waiting for other players",
+                   "translation": "Ожидание других игроков"
+               }
+           }
+       },
+       "construction": {
+           "text": "CONSTRUCTION",
+           "data": {
+               "ru": {
+                   "original": "CONSTRUCTION",
+                   "translation": "СООРУЖЕНИЯ"
+               }
+           }
+       },
+       "tactic": {
+           "text": "TACTIC",
+           "data": {
+               "ru": {
+                   "original": "TACTIC",
+                   "translation": "ТАКТИКА"
+               }
+           }
+       },
+       "warfare": {
+           "text": "WARFARE",
+           "data": {
+               "ru": {
+                   "original": "WARFARE",
+                   "translation": "ВОЙНА"
+               }
+           }
+       },
+       "healing": {
+           "text": "HEALING",
+           "data": {
+               "ru": {
+                   "original": "HEALING",
+                   "translation": "ЛЕЧЕНИЕ"
+               }
+           }
+       },
+       "choose_your_respawn_point": {
+           "text": "Choose Your Respawn Point",
+           "data": {
+               "ru": {
+                   "original": "Choose Your Respawn Point",
+                   "translation": "Выберите точку возрождения"
+               }
+           }
+       },
+       "spawn_point_blocked_by_other_player": {
+           "text": "Respawn point blocked by another player",
+           "data": {
+               "ru": {
+                   "original": "Respawn point blocked by another player",
+                   "translation": "Точка возрождения заблокирована другими игроками"
+               }
+           }
+       },
+       "you_not_respawn_until_it_will_be_free_you_can_choose_another_point": {
+           "text": "You can't respawn until the respawn point is free. You can choose another one.",
+           "data": {
+               "ru": {
+                   "original": "You can't respawn until the respawn point is free. You can choose another one.",
+                   "translation": "Вы не можете возродиться пока точка занята.Вы можете выбрать другую."
+               }
+           }
+       },
+       "you_have_no_spawn_point": {
+           "text": "You have no respawn point selected",
+           "data": {
+               "ru": {
+                   "original": "You have no respawn point selected",
+                   "translation": "Вы не выбрали точку возрождения"
+               }
+           }
+       },
+       "you_not_respawn_until_you_choose_spawn_point": {
+           "text": "You cannot respawn until you choose a respawn point",
+           "data": {
+               "ru": {
+                   "original": "You cannot respawn until you choose a respawn point",
+                   "translation": "Вы не можете возродится пока не выберете точку возрождения"
+               }
+           }
+       },
+       "spawn_point_blocked_by_worlds_objects": {
+           "text": "Respawn point blocked by world objects",
+           "data": {
+               "ru": {
+                   "original": "Respawn point blocked by world objects",
+                   "translation": "Точка возрождения заблокирована объектами мира"
+               }
+           }
+       },
+       "you_not_respawn_until_it_will_be_clear_you_can_choose_another_point": {
+           "text": "You can't respawn until the respawn point is clear. You can choose another one.",
+           "data": {
+               "ru": {
+                   "original": "You can't respawn until the respawn point is clear. You can choose another one.",
+                   "translation": "Вы не можете возродится пока точку не зачистят.Вы можете выбрать другую."
+               }
+           }
+       },
+       "prepare_your_base": {
+           "text": "Prepare your base",
+           "data": {
+               "ru": {
+                   "original": "Prepare your base",
+                   "translation": "Приготовьте вашу базу"
+               }
+           }
+       },
+       "surrender": {
+           "text": "SURRENDER",
+           "data": {
+               "ru": {
+                   "original": "SURRENDER",
+                   "translation": "СДАТЬСЯ"
+               }
+           }
+       },
+       "press_y": {
+           "text": "Press 'Y' to vote YES!",
+           "data": {
+               "ru": {
+                   "original": "Press 'Y' to vote YES!",
+                   "translation": "Нажмите 'Y' чтобы голосовать ДА!"
+               }
+           }
+       },
+       "press_n": {
+           "text": "Press 'N' to vote NO!",
+           "data": {
+               "ru": {
+                   "original": "Press 'N' to vote NO!",
+                   "translation": "Нажмите 'N' чтобы голосовать НЕТ! "
+               }
+           }
+       },
+       "seconds_to_respawn": {
+           "text": "seconds to respawn",
+           "data": {
+               "ru": {
+                   "original": "seconds to respawn",
+                   "translation": "секунд до возрождения"
+               }
+           }
+       },
+       "switch_hero": {
+           "text": "Switch Hero",
+           "data": {
+               "ru": {
+                   "original": "Switch Hero",
+                   "translation": "Поменять Героя"
+               }
+           }
+       },
+       "ready": {
+           "text": "READY",
+           "data": {
+               "ru": {
+                   "original": "READY",
+                   "translation": "ГОТОВ"
+               }
+           }
+       },
+       "cancel": {
+           "text": "Cancel",
+           "data": {
+               "ru": {
+                   "original": "Cancel",
+                   "translation": "Отмена"
+               }
+           }
+       },
+       "recalling": {
+           "text": "RECALLING",
+           "data": {
+               "ru": {
+                   "original": "RECALLING",
+                   "translation": "ОТЗЫВАНИЕ"
+               }
+           }
+       },
+       "mouse_look": {
+           "text": "MOUSE LOOK",
+           "data": {
+               "ru": {
+                   "original": "MOUSE LOOK",
+                   "translation": "ОБЗОР МЫШЬЮ"
+               }
+           }
+       },
+       "recall": {
+           "text": "RECALL",
+           "data": {
+               "ru": {
+                   "original": "RECALL",
+                   "translation": "ОТЗЫВ"
+               }
+           }
+       },
+       "resume_game": {
+           "text": "RESUME GAME",
+           "data": {
+               "ru": {
+                   "original": "RESUME GAME",
+                   "translation": "ПРОДОЛЖИТЬ"
+               }
+           }
+       },
+       "menu": {
+           "text": "menu",
+           "data": {
+               "ru": {
+                   "original": "menu",
+                   "translation": "меню"
+               }
+           }
+       },
+       "go_back": {
+           "text": "Go back",
+           "data": {
+               "ru": {
+                   "original": "Go back",
+                   "translation": "Вернуться"
+               }
+           }
+       },
+       "brawn": {
+           "text": "BRAWN",
+           "data": {
+               "ru": {
+                   "original": "BRAWN",
+                   "translation": "МУСКУЛЫ"
+               }
+           }
+       },
+       "skill": {
+           "text": "SKILL",
+           "data": {
+               "ru": {
+                   "original": "SKILL",
+                   "translation": "УМЕНИЕ"
+               }
+           }
+       },
+       "brains": {
+           "text": "BRAINS",
+           "data": {
+               "ru": {
+                   "original": "BRAINS",
+                   "translation": "МОЗГИ"
+               }
+           }
+       },
+       "ground_tool": {
+           "text": "Ground Tool",
+           "data": {
+               "ru": {
+                   "original": "Ground Tool",
+                   "translation": ""
+               }
+           }
+       },
+       "special_device": {
+           "text": "Special Device",
+           "data": {
+               "ru": {
+                   "original": "Special Device",
+                   "translation": "Специальное Устройство"
+               }
+           }
+       },
+       "passive_ability": {
+           "text": "Passive Ability",
+           "data": {
+               "ru": {
+                   "original": "Passive Ability",
+                   "translation": "Пассивная Способность"
+               }
+           }
+       },
+       "active_ability": {
+           "text": "Active Ability",
+           "data": {
+               "ru": {
+                   "original": "Active Ability",
+                   "translation": "Активная Способность"
+               }
+           }
+       },
+       "first_weapon": {
+           "text": "First Weapon",
+           "data": {
+               "ru": {
+                   "original": "First Weapon",
+                   "translation": "Основное Оружие"
+               }
+           }
+       },
+       "second_weapon": {
+           "text": "Second Weapon",
+           "data": {
+               "ru": {
+                   "original": "Second Weapon",
+                   "translation": "Дополнительное Оружие"
+               }
+           }
+       },
+       "select_your_skin": {
+           "text": "SELECT YOUR SKIN!",
+           "data": {
+               "ru": {
+                   "original": "SELECT YOUR SKIN!",
+                   "translation": "ВЫБЕРЕТЕ ВАШ КОСТЮМ"
+               }
+           }
+       },
+       "player_left_the_queue": {
+           "text": "{0} selected Leave Queue. Please requeue.",
+           "data": {
+               "ru": {
+                   "original": "{0} selected Leave Queue. Please requeue.",
+                   "translation": "{0} выбрать Покинуть Очередь. Пожалуйста перезайдите в очередь."
+               }
+           }
+       },
+       "toughness": {
+           "text": "Toughness",
+           "data": {
+               "ru": {
+                   "original": "Toughness",
+                   "translation": "Живучесть"
+               }
+           }
+       },
+       "mobility": {
+           "text": "Mobility",
+           "data": {
+               "ru": {
+                   "original": "Mobility",
+                   "translation": "Мобильность"
+               }
+           }
+       },
+       "complexity": {
+           "text": "Complexity",
+           "data": {
+               "ru": {
+                   "original": "Complexity",
+                   "translation": "Сложность"
+               }
+           }
+       },
+       "conection_lost": {
+           "text": "Connection lost",
+           "data": {
+               "ru": {
+                   "original": "Connection lost",
+                   "translation": "Соединение потеряно"
+               }
+           }
+       },
+       "relogin": {
+           "text": "Relogin",
+           "data": {
+               "ru": {
+                   "original": "Relogin",
+                   "translation": "Перезайти"
+               }
+           }
+       },
+       "lobby_notify": {
+           "text": "PICK YOUR CHARACTER!",
+           "data": {
+               "ru": {
+                   "original": "PICK YOUR CHARACTER!",
+                   "translation": "ВЫБЕРЕТЕ ВАШЕГО ПЕРСОНАЖА!"
+               }
+           }
+       },
+       "lobby_hero_not_selected": {
+           "text": "hero not selected",
+           "data": {
+               "ru": {
+                   "original": "hero not selected",
+                   "translation": "герой не выбран"
+               }
+           }
+       },
+       "hud_prepare_for_battle": {
+           "text": "Prepare for Battle",
+           "data": {
+               "ru": {
+                   "original": "Prepare for Battle",
+                   "translation": "Приготовьтесь к Битве"
+               }
+           }
+       },
+       "hud_exp_to_next_rank": {
+           "text": "to next rank",
+           "data": {
+               "ru": {
+                   "original": "to next rank",
+                   "translation": "до следуюшего ранга"
+               }
+           }
+       },
+       "button_ok": {
+           "text": "OK",
+           "data": {
+               "ru": {
+                   "original": "OK",
+                   "translation": "ОК"
+               }
+           }
+       },
+       "do_you_want_to_leave_lobby_game": {
+           "text": "If you abandon your teammates now your Merit will be decreased! Are you sure you want to leave?",
+           "data": {
+               "ru": {
+                   "original": "If you abandon your teammates now your Merit will be decreased! Are you sure you want to leave?",
+                   "translation": "Если вы покинете команду то ваша честь будет уменьшена! Вы уверите что хотите выйти?"
+               }
+           }
+       },
+       "player_level": {
+           "text": "Player Level",
+           "data": {
+               "ru": {
+                   "original": "Player Level",
+                   "translation": "Уровень Игрока"
+               }
+           }
+       },
+       "league_rank": {
+           "text": "League Rank",
+           "data": {
+               "ru": {
+                   "original": "League Rank",
+                   "translation": "Ранг в Лиге"
+               }
+           }
+       },
+       "bronze": {
+           "text": "BRONZE",
+           "data": {
+               "ru": {
+                   "original": "BRONZE",
+                   "translation": "БРОНЗА"
+               }
+           }
+       },
+       "silver": {
+           "text": "SILVER",
+           "data": {
+               "ru": {
+                   "original": "SILVER",
+                   "translation": "СЕРЕБРО"
+               }
+           }
+       },
+       "gold": {
+           "text": "GOLD",
+           "data": {
+               "ru": {
+                   "original": "GOLD",
+                   "translation": "ЗОЛОТО"
+               }
+           }
+       },
+       "platinum": {
+           "text": "PLATINUM",
+           "data": {
+               "ru": {
+                   "original": "PLATINUM",
+                   "translation": "ПЛАТИНА"
+               }
+           }
+       },
+       "total_wins": {
+           "text": "Total Wins",
+           "data": {
+               "ru": {
+                   "original": "Total Wins",
+                   "translation": "Всего Побед"
+               }
+           }
+       },
+       "block_built": {
+           "text": "Blocks Built",
+           "data": {
+               "ru": {
+                   "original": "Blocks Built",
+                   "translation": "Блоков Построено"
+               }
+           }
+       },
+       "bricks_earned": {
+           "text": "Bricks Earned",
+           "data": {
+               "ru": {
+                   "original": "Bricks Earned",
+                   "translation": "Ресурсов Получено"
+               }
+           }
+       },
+       "objective_damage_dealt": {
+           "text": "Objective Damage Dealt",
+           "data": {
+               "ru": {
+                   "original": "Objective Damage Dealt",
+                   "translation": "Нанесено урона объектам"
+               }
+           }
+       },
+       "win_rate": {
+           "text": "WIN RATE",
+           "data": {
+               "ru": {
+                   "original": "WIN RATE",
+                   "translation": "РЕЙТИНГ ПОБЕД"
+               }
+           }
+       },
+       "kills": {
+           "text": "Kills",
+           "data": {
+               "ru": {
+                   "original": "Kills",
+                   "translation": "УБИЙСТВА"
+               }
+           }
+       },
+       "deaths": {
+           "text": "Deaths",
+           "data": {
+               "ru": {
+                   "original": "Deaths",
+                   "translation": "Смерти"
+               }
+           }
+       },
+       "assists": {
+           "text": "Assists",
+           "data": {
+               "ru": {
+                   "original": "Assists",
+                   "translation": "Поддержек"
+               }
+           }
+       },
+       "block_assist": {
+           "text": "Block Assist",
+           "data": {
+               "ru": {
+                   "original": "Block Assist",
+                   "translation": "Помощь Блоками"
+               }
+           }
+       },
+       "bricks_used": {
+           "text": "Bricks Used",
+           "data": {
+               "ru": {
+                   "original": "Bricks Used",
+                   "translation": "Ресурсов Использовано"
+               }
+           }
+       },
+       "objective_damage": {
+           "text": "Objective Damage",
+           "data": {
+               "ru": {
+                   "original": "Objective Damage",
+                   "translation": "Урон Объектами"
+               }
+           }
+       },
+       "hero": {
+           "text": "Hero",
+           "data": {
+               "ru": {
+                   "original": "Hero",
+                   "translation": "Герой"
+               }
+           }
+       },
+       "requires_level": {
+           "text": "Requires Level",
+           "data": {
+               "ru": {
+                   "original": "Requires Level",
+                   "translation": "Требуется Уровень"
+               }
+           }
+       },
+       "league_leaderboards": {
+           "text": "LEAGUE LEADERBOARDS",
+           "data": {
+               "ru": {
+                   "original": "LEAGUE LEADERBOARDS",
+                   "translation": "ЛИДЕРЫ ЛИГИ"
+               }
+           }
+       },
+       "position": {
+           "text": "Position",
+           "data": {
+               "ru": {
+                   "original": "Position",
+                   "translation": "Позиция"
+               }
+           }
+       },
+       "name": {
+           "text": "Name",
+           "data": {
+               "ru": {
+                   "original": "Name",
+                   "translation": "Имя"
+               }
+           }
+       },
+       "division": {
+           "text": "DIVISION",
+           "data": {
+               "ru": {
+                   "original": "DIVISION",
+                   "translation": "ОТДЕЛЕНИЕ"
+               }
+           }
+       },
+       "indicators": {
+           "text": "Indicators",
+           "data": {
+               "ru": {
+                   "original": "Indicators",
+                   "translation": "Индикаторы"
+               }
+           }
+       },
+       "nobody_found": {
+           "text": "Nobody Found",
+           "data": {
+               "ru": {
+                   "original": "Nobody Found",
+                   "translation": "Никого не найдено"
+               }
+           }
+       },
+       "game_overview": {
+           "text": "GAME OVERVIEW",
+           "data": {
+               "ru": {
+                   "original": "GAME OVERVIEW",
+                   "translation": "ОБЗОР ИГРЫ"
+               }
+           }
+       },
+       "class": {
+           "text": "CLASS",
+           "data": {
+               "ru": {
+                   "original": "CLASS",
+                   "translation": "КЛАСС"
+               }
+           }
+       },
+       "weapon": {
+           "text": "Weapon",
+           "data": {
+               "ru": {
+                   "original": "Weapon",
+                   "translation": "Оружие"
+               }
+           }
+       },
+       "skills": {
+           "text": "Skills",
+           "data": {
+               "ru": {
+                   "original": "Skills",
+                   "translation": "Умения"
+               }
+           }
+       },
+       "tool": {
+           "text": "Tool",
+           "data": {
+               "ru": {
+                   "original": "Tool",
+                   "translation": "Инструмент"
+               }
+           }
+       },
+       "block": {
+           "text": "Block",
+           "data": {
+               "ru": {
+                   "original": "Block",
+                   "translation": "Блок"
+               }
+           }
+       },
+       "game_browser": {
+           "text": "GAME BROWSER",
+           "data": {
+               "ru": {
+                   "original": "GAME BROWSER",
+                   "translation": "ОБЗОР ИГРЫ"
+               }
+           }
+       },
+       "search": {
+           "text": "Search",
+           "data": {
+               "ru": {
+                   "original": "Search",
+                   "translation": "Поиск"
+               }
+           }
+       },
+       "game_name": {
+           "text": "Game Name",
+           "data": {
+               "ru": {
+                   "original": "Game Name",
+                   "translation": "Название Игры"
+               }
+           }
+       },
+       "game_starter": {
+           "text": "Game Starter",
+           "data": {
+               "ru": {
+                   "original": "Game Starter",
+                   "translation": "Владелец Игры"
+               }
+           }
+       },
+       "slots": {
+           "text": "Slots",
+           "data": {
+               "ru": {
+                   "original": "Slots",
+                   "translation": "Слоты"
+               }
+           }
+       },
+       "map_name": {
+           "text": "Map Name",
+           "data": {
+               "ru": {
+                   "original": "Map Name",
+                   "translation": "Название Карты"
+               }
+           }
+       },
+       "game_browser_game_details": {
+           "text": "Game Details",
+           "data": {
+               "ru": {
+                   "original": "Game Details",
+                   "translation": "Детали Игры"
+               }
+           }
+       },
+       "build_time": {
+           "text": "Build Time",
+           "data": {
+               "ru": {
+                   "original": "Build Time",
+                   "translation": "Время Строительства"
+               }
+           }
+       },
+       "max_respawn_time": {
+           "text": "Max Respawn Time",
+           "data": {
+               "ru": {
+                   "original": "Max Respawn Time",
+                   "translation": "Максимальное Время Возрождения"
+               }
+           }
+       },
+       "hero_switching": {
+           "text": "Hero Switching",
+           "data": {
+               "ru": {
+                   "original": "Hero Switching",
+                   "translation": "Смена Героя"
+               }
+           }
+       },
+       "super_supply_drops": {
+           "text": "Super Supply Drops",
+           "data": {
+               "ru": {
+                   "original": "Super Supply Drops",
+                   "translation": "Супер Ящики с Ресурсами"
+               }
+           }
+       },
+       "refresh": {
+           "text": "Refresh",
+           "data": {
+               "ru": {
+                   "original": "Refresh",
+                   "translation": "Обновить"
+               }
+           }
+       },
+       "create_game": {
+           "text": "Create Game",
+           "data": {
+               "ru": {
+                   "original": "Create Game",
+                   "translation": "Создать Игру"
+               }
+           }
+       },
+       "join": {
+           "text": "Join",
+           "data": {
+               "ru": {
+                   "original": "Join",
+                   "translation": "Присоединиться"
+               }
+           }
+       },
+       "match_options": {
+           "text": "MATCH OPTIONS",
+           "data": {
+               "ru": {
+                   "original": "MATCH OPTIONS",
+                   "translation": "ОПЦИИ МАТЧА"
+               }
+           }
+       },
+       "start_game": {
+           "text": "Start Game",
+           "data": {
+               "ru": {
+                   "original": "Start Game",
+                   "translation": "Начать Игру"
+               }
+           }
+       },
+       "password": {
+           "text": "Password",
+           "data": {
+               "ru": {
+                   "original": "Password",
+                   "translation": "Пароль"
+               }
+           }
+       },
+       "enter_password": {
+           "text": "Enter Password",
+           "data": {
+               "ru": {
+                   "original": "Enter Password",
+                   "translation": "Введите Пароль"
+               }
+           }
+       },
+       "joining_to_game": {
+           "text": "Joining game",
+           "data": {
+               "ru": {
+                   "original": "Joining game",
+                   "translation": "Присоединение к игре"
+               }
+           }
+       },
+       "connecting": {
+           "text": "Connecting...",
+           "data": {
+               "ru": {
+                   "original": "Connecting...",
+                   "translation": "Присоединение..."
+               }
+           }
+       },
+       "votes": {
+           "text": "votes",
+           "data": {
+               "ru": {
+                   "original": "votes",
+                   "translation": "голосов"
+               }
+           }
+       },
+       "left_click_to_skip": {
+           "text": "left click to skip",
+           "data": {
+               "ru": {
+                   "original": "left click to skip",
+                   "translation": "левый клик чтобы пропустить"
+               }
+           }
+       },
+       "exit_confirmation": {
+           "text": "Are you sure you want to exit Block N Load?",
+           "data": {
+               "ru": {
+                   "original": "Are you sure you want to exit Block N Load?",
+                   "translation": "Вы уверены что хотите выйти из Block N Load?"
+               }
+           }
+       },
+       "custom_game_enter": {
+           "text": "Enter",
+           "data": {
+               "ru": {
+                   "original": "Enter",
+                   "translation": "Войти"
+               }
+           }
+       },
+       "exit": {
+           "text": "Exit",
+           "data": {
+               "ru": {
+                   "original": "Exit",
+                   "translation": "Выйти"
+               }
+           }
+       },
+       "latency": {
+           "text": "Ping",
+           "data": {
+               "ru": {
+                   "original": "Ping",
+                   "translation": "Пинг"
+               }
+           }
+       },
+       "squad_invitation_declined": {
+           "text": "{0} declined your invitation.",
+           "data": {
+               "ru": {
+                   "original": "{0} declined your invitation.",
+                   "translation": "{0} отказался от вашего приглашения"
+               }
+           }
+       },
+       "confirm_invitation_to_squad": {
+           "text": "{0} has invited you to join a squad. Accept?",
+           "data": {
+               "ru": {
+                   "original": "{0} has invited you to join a squad. Accept?",
+                   "translation": "{0} пригласил вас в отряд. Согласиться?"
+               }
+           }
+       },
+       "squad_invitee_in_match": {
+           "text": "{0} is already in a match and cannot accept your invitation.",
+           "data": {
+               "ru": {
+                   "original": "{0} is already in a match and cannot accept your invitation.",
+                   "translation": "{0} сейчас в игре и не может принять ваше приглашение."
+               }
+           }
+       },
+       "build_time_tooltip": {
+           "text": "Set the duration for the initial ceasefire period.",
+           "data": {
+               "ru": {
+                   "original": "Set the duration for the initial ceasefire period.",
+                   "translation": "Установите продолжительность мирного периода"
+               }
+           }
+       },
+       "max_respawn_time_tooltip": {
+           "text": "Set the maximum respawn time.",
+           "data": {
+               "ru": {
+                   "original": "Set the maximum respawn time.",
+                   "translation": "Установите максимальное время респавна."
+               }
+           }
+       },
+       "hero_switching_tooltip": {
+           "text": "Enable or disable hero switching on the respawn screen.",
+           "data": {
+               "ru": {
+                   "original": "Enable or disable hero switching on the respawn screen.",
+                   "translation": "Включите или выключите смену героя на экране респавна."
+               }
+           }
+       },
+       "super_supply_drops_tooltip": {
+           "text": "Enable or disable super supply drops.",
+           "data": {
+               "ru": {
+                   "original": "Enable or disable super supply drops.",
+                   "translation": "Включить или выключить падение супер ящиков с ресурсами."
+               }
+           }
+       },
+       "squad_already_in_squad": {
+           "text": "You can't invite this player.",
+           "data": {
+               "ru": {
+                   "original": "You can't invite this player.",
+                   "translation": "Вы не можете пригласить этого игрока."
+               }
+           }
+       },
+       "your_merit_decreased_by_reports": {
+           "text": "Your merit has been reduced for being reported multiple times.",
+           "data": {
+               "ru": {
+                   "original": "Your merit has been reduced for being reported multiple times.",
+                   "translation": "Ваша честь была уменьшена из-за жалоб на вас."
+               }
+           }
+       },
+       "your_merit_decreased_lobby_leave": {
+           "text": "Your merit has been decreased for leaving a match.",
+           "data": {
+               "ru": {
+                   "original": "Your merit has been decreased for leaving a match.",
+                   "translation": "Ваша честь была уменьшена из-за того что вы покинули матч."
+               }
+           }
+       },
+       "your_merit_decreased_by_afk_in_queue": {
+           "text": "You have repeatedly failed to accept a match. Your merit has been decreased.",
+           "data": {
+               "ru": {
+                   "original": "You have repeatedly failed to accept a match. Your merit has been decreased.",
+                   "translation": "Вы несколько раз не приняли приглашение в матч. Ваша честь была уменьшена."
+               }
+           }
+       },
+       "input_type_here": {
+           "text": "Type Here",
+           "data": {
+               "ru": {
+                   "original": "Type Here",
+                   "translation": "Напишите здесь"
+               }
+           }
+       },
+       "unranked": {
+           "text": "UNRANKED",
+           "data": {
+               "ru": {
+                   "original": "UNRANKED",
+                   "translation": ""
+               }
+           }
+       }
+   },
+   "category": "strings",
+   "hercules_metadata": {
+       "timestamp": "201502101320152811",
+       "user": "vladimir",
+       "prev_rev": "358-1c5a4b3da0f126d27e879f3fa65cbd90"
+   },
+   "scope": "public"
+}

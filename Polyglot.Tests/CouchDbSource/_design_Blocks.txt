@@ -1,0 +1,10 @@
+﻿{
+   "_id": "_design/Blocks",
+   "_rev": "1-c911318e8d76ea284802b2f97791d171",
+   "language": "javascript",
+   "views": {
+       "All": {
+           "map": "function(doc) {\nif(doc.category == \"block\")\n  emit(doc._id, doc.block_id);\n}"
+       }
+   }
+}

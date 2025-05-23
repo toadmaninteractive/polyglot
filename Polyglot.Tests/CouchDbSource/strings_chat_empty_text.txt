@@ -1,0 +1,49 @@
+﻿{
+   "_id": "strings_chat_empty_text",
+   "_rev": "16-48a87790310573fd59317244f9cf05a8",
+   "strings": {
+       "chat_ban_reason_generic": {
+           "text": "You've been banned from the chat.",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat.",
+                   "translation": "Вы были забанены в этом чате."
+               }
+           }
+       },
+       "chat_ban_reason_inappropriate_behaviour": {
+           "text": "",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for inappropriate or offensive behaviour",
+                   "translation": "Вы были забанены в этом чате за неправильное или оскорбительное поведение"
+               }
+           }
+       },
+       "chat_ban_reason_claiming_a_false_identity": {
+           "text": "You've been banned from the chat for claiming a false identity",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for claiming a false identity",
+                   "translation": "Вы были забанены в этом чате за то что выдавали себя за другого"
+               }
+           }
+       },
+       "chat_ban_reason_discussion_of_cheating": {
+           "text": "",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for discussion of cheating, hacking, or game exploits",
+                   "translation": "Вы были забанены в этом чате за обсуждение читов,взломов и багов игры"
+               }
+           }
+       },
+   },
+   "category": "strings",
+   "hercules_metadata": {
+       "timestamp": "201501281518060790",
+       "user": "lance",
+       "prev_rev": "15-15899f40fcdc05b260663e72573b03c7"
+   },
+   "scope": "public"
+}

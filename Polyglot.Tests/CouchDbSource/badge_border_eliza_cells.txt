@@ -1,0 +1,22 @@
+﻿{
+   "_id": "badge_border_eliza_cells",
+   "_rev": "11-7c59b09fb5ea6e1ff1e4b76c67d5881c",
+   "icon": "progress_eliza_border2",
+   "name": {
+       "text": "Cells",
+       "data": {
+           "ru": {
+               "original": "Cells",
+               "translation": "Клетки!!!"
+           }
+       }
+   },
+   "badge_type": "border",
+   "category": "badge",
+   "hercules_metadata": {
+       "timestamp": "201503201122070698",
+       "user": "vladimir",
+       "prev_rev": "10-2fbe85062da7c6b135f4bc5cb8369a63"
+   },
+   "scope": "public"
+}

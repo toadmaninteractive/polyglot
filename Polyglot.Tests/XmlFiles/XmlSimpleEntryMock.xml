@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="ru">
+	<document name="badge_border_cogwheel_gears">
+		<entry path="name" valid="true">
+			<original>Grinding Gears</original>
+			<translation>new translation</translation>
+		</entry>
+	</document>
+	<document name="badge_border_cogwheel_gears_xx">
+		<entry path="name" valid="true">
+			<original>Gears XX</original>
+			<translation>Большой Механизм!!!</translation>
+		</entry>
+	</document>
+	<document name="badge_border_with_empty_data">
+		<entry path="name" valid="true">
+			<original>Grinding Gears</original>
+			<translation>new translation</translation>
+		</entry>
+	</document>
+</language>

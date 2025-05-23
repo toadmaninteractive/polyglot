@@ -1,0 +1,202 @@
+﻿{
+   "_id": "strings_offline",
+   "_rev": "12-7a182251f6a72ddf158112dd73720ce6",
+   "strings": {
+       "error_debug_is_disabled_in_steam_client": {
+           "text": "ERROR: Debug is disabled in Steam client!",
+           "data": {
+               "ru": {
+                   "original": "ERROR: Debug is disabled in Steam client!",
+                   "translation": "ОШИБКА: Режим откладки отключен в Steam"
+               }
+           }
+       },
+       "login_to_steam": {
+           "text": "Login to steam...",
+           "data": {
+               "ru": {
+                   "original": "Login to steam...",
+                   "translation": "Вход в steam..."
+               }
+           }
+       },
+       "error_failed_to_initialize_steam": {
+           "text": "ERROR: Failed to initialize Steam.",
+           "data": {
+               "ru": {
+                   "original": "ERROR: Failed to initialize Steam.",
+                   "translation": "ОШИБКА: Провал инициализирования Steam. "
+               }
+           }
+       },
+       "error_you_don_t_logged_on_to_steam": {
+           "text": "Sorry - you are not logged into your Steam Account. Please log into Steam and restart.",
+           "data": {
+               "ru": {
+                   "original": "Sorry - you are not logged into your Steam Account. Please log into Steam and restart.",
+                   "translation": "Извиниье - вы не вошли в ваш Steam аккаунт.Пожалуйста зайдите в Steam и перезапустите."
+               }
+           }
+       },
+       "error_you_are_vac_banned": {
+           "text": "ERROR: You are VAC Banned (Valve Anti-Cheat).",
+           "data": {
+               "ru": {
+                   "original": "ERROR: You are VAC Banned (Valve Anti-Cheat).",
+                   "translation": "ОШИБКА: Вы Забаннены системой VAC (Valve Anti-Cheat)."
+               }
+           }
+       },
+       "error_steam_client_authentication_failed": {
+           "text": "ERROR: Steam client authentication failed.",
+           "data": {
+               "ru": {
+                   "original": "ERROR: Steam client authentication failed.",
+                   "translation": "ОШИБКА: провал аутентификации в Steam клиенте."
+               }
+           }
+       },
+       "error_server_configs_wrong": {
+           "text": "ERROR: Server configs wrong.",
+           "data": {
+               "ru": {
+                   "original": "ERROR: Server configs wrong.",
+                   "translation": "ОШИБКА: Данные сервера неверны."
+               }
+           }
+       },
+       "connecting_to_master_server": {
+           "text": "Connecting to master server...",
+           "data": {
+               "ru": {
+                   "original": "Connecting to master server...",
+                   "translation": "Присоеднинение к мастер серверу..."
+               }
+           }
+       },
+       "error_can_t_connect_to_game_server": {
+           "text": "ERROR: Can't connect to Game Server.",
+           "data": {
+               "ru": {
+                   "original": "ERROR: Can't connect to Game Server.",
+                   "translation": "ОШИБКА: Вы не можете присоединиться к Игровому Серверу"
+               }
+           }
+       },
+       "error_can_t_connect_to_region_server": {
+           "text": "ERROR: Can't connect to Region Server.",
+           "data": {
+               "ru": {
+                   "original": "ERROR: Can't connect to Region Server.",
+                   "translation": "ОШИБКА: Вы не можете присоединиться к Региональному Серверу"
+               }
+           }
+       },
+       "login_to_master_server": {
+           "text": "Logging into master server...",
+           "data": {
+               "ru": {
+                   "original": "Logging into master server...",
+                   "translation": "Вход в мастер сервер..."
+               }
+           }
+       },
+       "error_old_version_of_protocol_you_need_update_client": {
+           "text": "ERROR: Old version of protocol. Please update your game client. \nServer version: {0} Client version: {1}",
+           "data": {
+               "ru": {
+                   "original": "ERROR: Old version of protocol. Please update your game client. \nServer version: {0} Client version: {1}",
+                   "translation": "<translation>ОШИБКА: Старая версия протокола. Пожалуйста обновите клиент.\nВерсия сервера: {0} Версия клиента: {1}"
+               }
+           }
+       },
+       "connecting_to_region_server": {
+           "text": "Connecting to region server...",
+           "data": {
+               "ru": {
+                   "original": "Connecting to region server...",
+                   "translation": "Соеденение с региональным сервером..."
+               }
+           }
+       },
+       "login_to_region_server": {
+           "text": "Logging into region server...",
+           "data": {
+               "ru": {
+                   "original": "Logging into region server...",
+                   "translation": "Вход в региональный сервер..."
+               }
+           }
+       },
+       "error_login_to_region_server_isn_t_accepted": {
+           "text": "ERROR: Login to region server failed",
+           "data": {
+               "ru": {
+                   "original": "ERROR: Login to region server failed",
+                   "translation": "ОШИБКА: провал входа в региональный сервер"
+               }
+           }
+       },
+       "error_login_denied_authentication_failed": {
+           "text": "ERROR: Login denied - Authentication Failed",
+           "data": {
+               "ru": {
+                   "original": "ERROR: Login denied - Authentication Failed",
+                   "translation": "ОШИБКА: Вход отменен - аутентификация провалена"
+               }
+           }
+       },
+       "error_login_denied": {
+           "text": "ERROR: Login denied - {0}",
+           "data": {
+               "ru": {
+                   "original": "ERROR: Login denied - {0}",
+                   "translation": "ОШИБКА: Вход отменен - {0}"
+               }
+           }
+       },
+       "connection_to_game_server_is_lost": {
+           "text": "ERROR: Connection to game server lost",
+           "data": {
+               "ru": {
+                   "original": "ERROR: Connection to game server lost",
+                   "translation": "ОШИБКА: Соеденение с игровым сервером потеряно"
+               }
+           }
+       },
+       "error_game_server_is_under_maintenance": {
+           "text": "ERROR: The Block N Load server is currently down for maintenance. Please visit www.yourcompany.com for more information.",
+           "data": {
+               "ru": {
+                   "original": "ERROR: The Block N Load server is currently down for maintenance. Please visit www.yourcompany.com for more information.",
+                   "translation": "ОШИБКА: Block N Load сервер временно выключен. Пожалуйста проверьте www.yourcompany.com для большей информации."
+               }
+           }
+       },
+       "waiting_login_queue": {
+           "text": "Waiting for available login slot... Expected login in {0} seconds",
+           "data": {
+               "ru": {
+                   "original": "Waiting for available login slot... Expected login in {0} seconds",
+                   "translation": "Ожидание доступного места... Прошло {0} секунд"
+               }
+           }
+       },
+       "error_login_denied_server_maintenance": {
+           "text": "Server maintenance in progress",
+           "data": {
+               "ru": {
+                   "original": "Server maintenance in progress",
+                   "translation": ""
+               }
+           }
+       }
+   },
+   "category": "strings",
+   "hercules_metadata": {
+       "timestamp": "201502021053543630",
+       "user": "pmmax",
+       "prev_rev": "11-e2526726d33249f0c0d76d523ca6236a"
+   },
+   "scope": "public"
+}

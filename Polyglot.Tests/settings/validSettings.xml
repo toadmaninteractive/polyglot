@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<serverUrl>http://cdb.yourcompany.com</serverUrl>
+	<databaseName>sample</databaseName>
+	<useAuthentication>True</useAuthentication>
+	<authUsername>user</authUsername>
+	<authPassword>password</authPassword>
+	<localeTranslation>ru</localeTranslation>
+	<askCredentials>True</askCredentials>
+	<advance>False</advance>
+	<lastFolder>.\</lastFolder>
+	<xmlReadable>True</xmlReadable>
+	<suppressCdata>True</suppressCdata>
+</settings>

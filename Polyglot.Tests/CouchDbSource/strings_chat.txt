@@ -1,0 +1,364 @@
+﻿{
+   "_id": "strings_chat",
+   "_rev": "16-48a87790310573fd59317244f9cf05a8",
+   "strings": {
+       "chat_ban_reason_generic": {
+           "text": "You've been banned from the chat.",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat.",
+                   "translation": "Вы были забанены в этом чате."
+               }
+           }
+       },
+       "chat_ban_reason_inappropriate_behaviour": {
+           "text": "You've been banned from the chat for inappropriate or offensive behaviour",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for inappropriate or offensive behaviour",
+                   "translation": "Вы были забанены в этом чате за неправильное или оскорбительное поведение"
+               }
+           }
+       },
+       "chat_ban_reason_claiming_a_false_identity": {
+           "text": "You've been banned from the chat for claiming a false identity",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for claiming a false identity",
+                   "translation": "Вы были забанены в этом чате за то что выдавали себя за другого"
+               }
+           }
+       },
+       "chat_ban_reason_discussion_of_cheating": {
+           "text": "You've been banned from the chat for discussion of cheating, hacking, or game exploits",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for discussion of cheating, hacking, or game exploits",
+                   "translation": "Вы были забанены в этом чате за обсуждение читов,взломов и багов игры"
+               }
+           }
+       },
+       "chat_ban_reason_bullying": {
+           "text": "You've been banned from the chat for bullying",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for bullying",
+                   "translation": "Вы были забанены в этом чате за запугивание"
+               }
+           }
+       },
+       "chat_ban_reason_discussion_of_piracy": {
+           "text": "You've been banned from the chat for discussion of piracy",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for discussion of piracy",
+                   "translation": "Вы были забанены в этом чате за обсуждения пиратства"
+               }
+           }
+       },
+       "chat_ban_reason_threats_of_violence": {
+           "text": "You've been banned from the chat for threats of violence",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for threats of violence",
+                   "translation": "Вы были забанены в этом чате за угрозы расправы"
+               }
+           }
+       },
+       "chat_ban_reason_harassment": {
+           "text": "You've been banned from the chat for harassment",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for harassment",
+                   "translation": "Вы были забанены в этом чате за домогательство "
+               }
+           }
+       },
+       "chat_ban_reason_soliciting": {
+           "text": "You've been banned from the chat for soliciting",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for soliciting",
+                   "translation": "Вы были забанены в этом чате за ходатайство"
+               }
+           }
+       },
+       "chat_ban_reason_spamming": {
+           "text": "You've been banned from the chat for advertising or referral spam",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for advertising or referral spam",
+                   "translation": "Вы были забанены в этом чате за рекламу и реферальный спам "
+               }
+           }
+       },
+       "chat_ban_reason_racism": {
+           "text": "You've been banned from the chat for racism",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for racism",
+                   "translation": "Вы были забанены в этом чате за расизм"
+               }
+           }
+       },
+       "chat_ban_reason_discrimination": {
+           "text": "You've been banned from the chat for discrimination",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for discrimination",
+                   "translation": "Вы были забанены в этом чате за дискриминацию"
+               }
+           }
+       },
+       "chat_ban_reason_abusive_language": {
+           "text": "You've been banned from the chat for abusive language",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for abusive language",
+                   "translation": "Вы были забанены в этом чате за оскорбительные выражения"
+               }
+           }
+       },
+       "chat_ban_reason_drugs_or_alcohol": {
+           "text": "You've been banned from the chat for discussion of drugs and/or alcohol",
+           "data": {
+               "ru": {
+                   "original": "You've been banned from the chat for discussion of drugs and/or alcohol",
+                   "translation": "Вы были забанены в этом чате за обсуждения наркотиков или алкоголя"
+               }
+           }
+       },
+       "chat_ban_reason_graveyard": {
+           "text": "You're in the Graveyard. Chat is disabled",
+           "data": {
+               "ru": {
+                   "original": "You're in the Graveyard. Chat is disabled",
+                   "translation": "Вы на Кладбище. Чат отключен. "
+               }
+           }
+       },
+       "hud_player_alert_needs_help_chat": {
+           "text": "NEEDS HELP",
+           "data": {
+               "ru": {
+                   "original": "NEEDS HELP",
+                   "translation": "НУЖНА ПОМОЩЬ"
+               }
+           }
+       },
+       "hud_player_alert_going_offensive_chat": {
+           "text": "IS GOING OFFENSIVE",
+           "data": {
+               "ru": {
+                   "original": "IS GOING OFFENSIVE",
+                   "translation": "ИДЕМ В НАСТУПЛЕНИЕ"
+               }
+           }
+       },
+       "hud_player_alert_going_defensive_chat": {
+           "text": "IS GOING DEFENSIVE",
+           "data": {
+               "ru": {
+                   "original": "IS GOING DEFENSIVE",
+                   "translation": "ИДЕМ В ЗАЩИТУ"
+               }
+           }
+       },
+       "hud_player_alert_follow_me_chat": {
+           "text": "FOLLOW ME",
+           "data": {
+               "ru": {
+                   "original": "FOLLOW ME",
+                   "translation": "ЗА МНОЙ"
+               }
+           }
+       },
+       "hud_player_alert_building_chat": {
+           "text": "BUILDING",
+           "data": {
+               "ru": {
+                   "original": "BUILDING",
+                   "translation": "СТРОИМ"
+               }
+           }
+       },
+       "hud_player_alert_follow_me": {
+           "text": "FOLLOW ME",
+           "data": {
+               "ru": {
+                   "original": "FOLLOW ME",
+                   "translation": "ЗА МНОЙ"
+               }
+           }
+       },
+       "hud_player_alert_building": {
+           "text": "BUILDING",
+           "data": {
+               "ru": {
+                   "original": "BUILDING",
+                   "translation": "СТРОИМ"
+               }
+           }
+       },
+       "hud_player_alert_warning": {
+           "text": "you can't do that yet",
+           "data": {
+               "ru": {
+                   "original": "you can't do that yet",
+                   "translation": "пока что вы не можете это сделать"
+               }
+           }
+       },
+       "hud_player_alert_going_offensive": {
+           "text": "GOING OFFENSIVE",
+           "data": {
+               "ru": {
+                   "original": "GOING OFFENSIVE",
+                   "translation": "ИДЕТ НАСТУПЛЕНИЕ"
+               }
+           }
+       },
+       "hud_player_alert_going_defensive": {
+           "text": "GOING DEFENSIVE",
+           "data": {
+               "ru": {
+                   "original": "GOING DEFENSIVE",
+                   "translation": "ИДЕТ ЗАЩИТА"
+               }
+           }
+       },
+       "hud_player_alert_needs_help": {
+           "text": "NEEDS HELP",
+           "data": {
+               "ru": {
+                   "original": "NEEDS HELP",
+                   "translation": "НУЖНА ПОМОЩЬ"
+               }
+           }
+       },
+       "lobby_chat": {
+           "text": "Lobby Chat",
+           "data": {
+               "ru": {
+                   "original": "Lobby Chat",
+                   "translation": "Чат Комнаты"
+               }
+           }
+       },
+       "press_enter_to_chat": {
+           "text": "Press Enter to chat",
+           "data": {
+               "ru": {
+                   "original": "Press Enter to chat",
+                   "translation": "Нажмите Enter чтобы общаться"
+               }
+           }
+       },
+       "welcome_to_the_chat": {
+           "text": "Welcome to the chat",
+           "data": {
+               "ru": {
+                   "original": "Welcome to the chat",
+                   "translation": "Добро пожаловать в чат"
+               }
+           }
+       },
+       "chat_input_box": {
+           "text": "Press Enter to chat...",
+           "data": {
+               "ru": {
+                   "original": "Press Enter to chat...",
+                   "translation": "Нажмите Enter чтобы общаться..."
+               }
+           }
+       },
+       "hud_chat_player_joined": {
+           "text": "Player <PLAYER> joined",
+           "data": {
+               "ru": {
+                   "original": "Player <PLAYER> joined",
+                   "translation": "Игрок <PLAYER> присоединился "
+               }
+           }
+       },
+       "hud_chat_player_disconnected": {
+           "text": "<PLAYER> has disconnected",
+           "data": {
+               "ru": {
+                   "original": "<PLAYER> has disconnected",
+                   "translation": "><PLAYER> отключился"
+               }
+           }
+       },
+       "result_screen_chat_player_left": {
+           "text": "<PLAYER> has left the game",
+           "data": {
+               "ru": {
+                   "original": "<PLAYER> has left the game",
+                   "translation": "><PLAYER> покинул игру"
+               }
+           }
+       },
+       "chat_spam_error": {
+           "text": "You have sent too many chat messages Please wait a little while before sending more.",
+           "data": {
+               "ru": {
+                   "original": "You have sent too many chat messages Please wait a little while before sending more.",
+                   "translation": "Вы отправили слишком много сообщений, пожалуйста немного подождите перед дальнейшей отправкой сообщений"
+               }
+           }
+       },
+       "chat_private_fail_ignor": {
+           "text": "<PLAYER> is ignoring you",
+           "data": {
+               "ru": {
+                   "original": "<PLAYER> is ignoring you",
+                   "translation": "<PLAYER> игнорирует вас"
+               }
+           }
+       },
+       "chat_private_fail_match": {
+           "text": "<PLAYER> in match",
+           "data": {
+               "ru": {
+                   "original": "<PLAYER> in match",
+                   "translation": "<PLAYER> играет матч"
+               }
+           }
+       },
+       "chat_private_fail_offline": {
+           "text": "<PLAYER> is offline",
+           "data": {
+               "ru": {
+                   "original": "<PLAYER> is offline",
+                   "translation": "<PLAYER> не в сети"
+               }
+           }
+       },
+       "chat_room_all": {
+           "text": "all",
+           "data": {
+               "ru": {
+                   "original": "all",
+                   "translation": "все"
+               }
+           }
+       },
+       "chat_room_team": {
+           "text": "team",
+           "data": {
+               "ru": {
+                   "original": "team",
+                   "translation": "команда"
+               }
+           }
+       }
+   },
+   "category": "strings",
+   "hercules_metadata": {
+       "timestamp": "201501281518060790",
+       "user": "lance",
+       "prev_rev": "15-15899f40fcdc05b260663e72573b03c7"
+   },
+   "scope": "public"
+}

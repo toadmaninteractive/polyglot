@@ -1,0 +1,1417 @@
+﻿{
+   "_id": "global_logic",
+   "_rev": "207-053cbc2f25cbad41f574be4fc54efa3c",
+   "max_players_in_squad": 5,
+   "available_achievements": [
+       "achievement_1001_faces",
+       "achievement_adversary_at_gates",
+       "achievement_and_so_it_begins",
+       "achievement_bricks_must_flow",
+       "achievement_buddy_squad",
+       "achievement_crossed_the_line",
+       "achievement_down_rabbit_hole",
+       "achievement_getting_in_character",
+       "achievement_gold_is_best",
+       "achievement_grey_piligrim",
+       "achievement_henshin",
+       "achievement_locomotive",
+       "achievement_mole_machine",
+       "achievement_one_block_at_time",
+       "achievement_professional",
+       "achievement_silver_star",
+       "achievement_sweet_taste_of_victory",
+       "achievement_sweettooth",
+       "achievement_vae_victis",
+       "achievement_wolf_of_block_street"
+   ],
+   "regions": {
+       "DEV": {
+           "name": {
+               "text": "DEV",
+               "data": {
+               }
+           },
+           "icon": "server_europe"
+       },
+       "DEV2": {
+           "name": {
+               "text": "DEV 2",
+               "data": {
+               }
+           },
+           "icon": "server_oceania"
+       },
+       "LATEST_1": {
+           "name": {
+               "text": "LATEST_1",
+               "data": {
+               }
+           },
+           "icon": "server_europe"
+       },
+       "MAP_EDITOR": {
+           "name": {
+               "text": "MAP EDITOR",
+               "data": {
+               }
+           },
+           "icon": "server_europe"
+       },
+       "EU": {
+           "name": {
+               "text": "Europe",
+               "data": {
+               }
+           },
+           "icon": "server_europe"
+       },
+       "US": {
+           "name": {
+               "text": "N. America",
+               "data": {
+               }
+           },
+           "icon": "server_northamerica"
+       },
+       "LATEST_2": {
+           "name": {
+               "text": "LATEST_2",
+               "data": {
+               }
+           },
+           "icon": "server_northamerica"
+       },
+       "EU2": {
+           "name": {
+               "text": "Europe 2",
+               "data": {
+               }
+           },
+           "icon": "server_europe"
+       },
+       "AUS": {
+           "name": {
+               "text": "Oceania",
+               "data": {
+               }
+           },
+           "icon": "server_oceania"
+       }
+   },
+   "max_player_speed": 50,
+   "matchmaker": {
+       "queue_min_slot": 0,
+       "queue_max_slot": 60,
+       "queue_slot_size": 50,
+       "queue_expand_time": 20,
+       "game_modes_for_queues": [
+           "game_mode_friendly",
+           "game_mode_ranked",
+           "game_mode_graveyard"
+       ],
+       "confirm_time": 15,
+       "afk_count_for_demerit": 3
+   },
+   "custom_game": {
+       "game_mode": "game_mode_custom",
+       "available_maps": [
+           "map_sr2_valentine",
+           "map_sr2_teeny_tiny",
+           "map_sr2_wilson_bay",
+           "map_sr2_the_bridge",
+           "map_sr2_the_factory",
+           "map_sr2_heroes_playground",
+           "map_sr2_mountain_express",
+           "map_sr2_cube_cove",
+           "map_sr2_the_last_bastion",
+           "map_sr2_shuko_style"
+       ],
+       "max_spectators_per_match": 10,
+       "min_build_time": 60,
+       "max_build_time": 600,
+       "default_build_time": 300,
+       "min_respawn_time": 15,
+       "max_respawn_time": 60,
+       "default_respawn_time": 30
+   },
+   "leaderboard": {
+       "schedule_update_time": 120,
+       "page_size": 15,
+       "placement_period": 9
+   },
+   "league": {
+       "downgrade": [
+           0,
+           15,
+           30,
+           45
+       ],
+       "downgrade_period": "end_week",
+       "downgrade_threshold_time": 2419200,
+       "threshold_points": -25,
+       "division_rating_size": 200,
+       "total_division_count": 9,
+       "placement_period": 10,
+       "qualification_tier": 5,
+       "qualification_tier_win": 3,
+       "qualification_division": 3,
+       "qualification_division_win": 2,
+       "schedule_update_time": 600,
+       "page_size": 15
+   },
+   "medals": {
+       "positive_medals": [
+           "match_medal_architect",
+           "match_medal_main_attraction",
+           "match_medal_chess_master",
+           "match_medal_field_surgeon",
+           "match_medal_field_marshal",
+           "match_medal_the_professional",
+           "match_medal_headhunter",
+           "match_medal_tactician",
+           "match_medal_fountain_of_life",
+           "match_medal_destroyer",
+           "match_medal_conqueror",
+           "match_medal_happy_camper",
+           "match_medal_designated_scout",
+           "match_medal_healthy_as_a_baby",
+           "match_medal_just_too_tough_to_die",
+           "match_medal_kamikaze",
+           "match_medal_brawn_nemesis",
+           "match_medal_skill_nemesis",
+           "match_medal_brains_nemesis"
+       ],
+       "negative_medals": [
+           "match_medal_rebel_without_a_cause",
+           "match_medal_bullied",
+           "match_medal_outclassed",
+           "match_medal_outsmarted",
+           "match_medal_pretty_princess",
+           "match_medal_respawn_enthusiast",
+           "match_medal_glutton_for_punishment",
+           "match_medal_thin_red_paste",
+           "match_medal_crash_test_dummy",
+           "match_medal_magnet_of_misfortune",
+           "match_medal_still_counting_the_stars",
+           "match_medal_sitting_duck",
+           "match_medal_crying_for_mommy"
+       ]
+   },
+   "learning": {
+       "heroes": [
+           "unit_hero_cogwheel",
+           "unit_hero_engineer",
+           "unit_hero_doc_eliza",
+           "unit_hero_hunter",
+           "unit_hero_sarge_stone",
+           "unit_hero_ninja",
+           "unit_hero_boxer",
+           "unit_hero_djinn"
+       ],
+       "devices": [
+           "device_block_bounce",
+           "device_block_brick",
+           "device_block_crate",
+           "device_block_false",
+           "device_block_fast_movement",
+           "device_block_force_gate",
+           "device_block_glue",
+           "device_block_sandbag",
+           "device_cogwheel_mortar",
+           "device_engineer_turret",
+           "device_eliza_acid_trap",
+           "device_generic_ammo_resupply",
+           "device_generic_bomb",
+           "device_generic_caltrops",
+           "device_generic_fire_trap_v3",
+           "device_generic_heal_station",
+           "device_generic_landmine",
+           "device_generic_large_bomb",
+           "device_generic_radar",
+           "device_generic_respawn_point",
+           "device_generic_bear_trap",
+           "device_ninja_nest",
+           "device_sarge_bomb",
+           "device_hunter_tiki"
+       ],
+       "maps": [
+           "map_sr2_teeny_tiny",
+           "map_sr2_heroes_playground",
+           "map_sr2_mountain_express",
+           "map_sr2_wilson_bay"
+       ]
+   },
+   "xp_logic": {
+       "flat_coeff": 100,
+       "mult_coeff": 223,
+       "power_coeff": 1.35,
+       "max_hero_level": 10
+   },
+   "merit_logic": {
+       "merit_initial": 25,
+       "merit_max": 50,
+       "merit_min": -1000,
+       "merit_match_gain": 1,
+       "graveyard_threshold": -50,
+       "penalty_lobby": -1,
+       "penalty_first_report": -1,
+       "influence_initial": 0.34,
+       "influence_gain": 0.132,
+       "influence_loss": 0.132,
+       "influence_max": 1,
+       "report_data": {
+           "unskilled_player": {
+               "title": {
+                   "text": "Unskilled Player",
+                   "data": {
+                   }
+               },
+               "demerits": 0,
+               "orts_queue": "Block & Load::In-game Reports::Unskilled Player",
+               "orts_priority": 5
+           },
+           "team_killing_or_griefing": {
+               "title": {
+                   "text": "Team Killing / Griefing",
+                   "data": {
+                   }
+               },
+               "demerits": -1,
+               "orts_queue": "Block & Load::In-game Reports::Trolling",
+               "orts_priority": 5
+           },
+           "leaving_or_afk": {
+               "title": {
+                   "text": "Leaving / AFK",
+                   "data": {
+                   }
+               },
+               "demerits": 0,
+               "orts_queue": "Block & Load::In-game Reports::AFK",
+               "orts_priority": 5
+           },
+           "offensive_behaviour_or_bad_language": {
+               "title": {
+                   "text": "Offensive behaviour / Bad language",
+                   "data": {
+                   }
+               },
+               "demerits": -1,
+               "orts_queue": "Block & Load::In-game Reports::Inappropriate Behaviour",
+               "orts_priority": 5
+           },
+           "harrassment_or_threats": {
+               "title": {
+                   "text": "Harrassment / Real world threats",
+                   "data": {
+                   }
+               },
+               "demerits": 0,
+               "orts_queue": "Block & Load::In-game Reports::Harassment",
+               "orts_priority": 5
+           },
+           "cheating": {
+               "title": {
+                   "text": "Cheating",
+                   "data": {
+                   }
+               },
+               "demerits": 0,
+               "orts_queue": "Block & Load::In-game Reports::Cheating",
+               "orts_priority": 5
+           }
+       }
+   },
+   "tips_logic": {
+       "change_interval": 180,
+       "tips": [
+           {
+               "text": "You can customize your key bindings in the settings menu.",
+               "data": {
+                   "ru": {
+                       "original": "You can customize your key bindings in the settings menu.",
+                       "translation": "Вы можете редактировать клавиши в меню настроек......"
+                   }
+               }
+           },
+           {
+               "text": "Supply drops award all of your teammates a sizeable amount of bricks. Try to pick them up before your enemies do.",
+               "data": {
+                   "ru": {
+                       "original": "Supply drops award all of your teammates a sizeable amount of bricks. Try to pick them up before your enemies do.",
+                       "translation": "Ящик с ресурсами награждает всю вашу команду определенным кол-вом Ресурсов. Попробуйте поднять его, прежде чем ваши враги......."
+                   }
+               }
+           },
+           {
+               "text": "All player-built blocks can be salvaged for half of their building cost.",
+               "data": {
+                   "ru": {
+                       "original": "All player-built blocks can be salvaged for half of their building cost.",
+                       "translation": "Все построеные игроками блоки могут быть сняты, при этом вы получите половину их стоймости."
+                   }
+               }
+           },
+           {
+               "text": "You can't shoot, but you can reload while sprinting.",
+               "data": {
+                   "ru": {
+                       "original": "You can't shoot, but you can reload while sprinting.",
+                       "translation": "Во время бега вы не можете стрелять, но можете без проблем перезаряжаться."
+                   }
+               }
+           },
+           {
+               "text": "You can quickly sprint up hills or stairs without jumping.",
+               "data": {
+                   "ru": {
+                       "original": "You can quickly sprint up hills or stairs without jumping.",
+                       "translation": "Вы можете быстро пробежать в гору или по лестницам без прыжка."
+                   }
+               }
+           },
+           {
+               "text": "Running, jumping and crouching will modify the accuracy on most weapons. Try to find the right shooting conditions for your playstyle.",
+               "data": {
+                   "ru": {
+                       "original": "Running, jumping and crouching will modify the accuracy on most weapons. Try to find the right shooting conditions for your playstyle.",
+                       "translation": "Бег, прыжки и присидания изменяют точность большинства оружия. Попробуйте найти правильный способ стрельбы для вашего стиля игры."
+                   }
+               }
+           },
+           {
+               "text": "There is a damage fall-off factor on most weapons. Shooting an enemy at close range will usually do more damage than taking pot shots at them from a distance.",
+               "data": {
+                   "ru": {
+                       "original": "There is a damage fall-off factor on most weapons. Shooting an enemy at close range will usually do more damage than taking pot shots at them from a distance.",
+                       "translation": "Существует ухудшение урона на дальности для большенства оружия. Стрельба по врагу вблизи обычно наносит больше урона, чем стрельба  из такого же оружия с дистанции."
+                   }
+               }
+           },
+           {
+               "text": "Some weapons do different amounts of damage to heroes and blocks.",
+               "data": {
+                   "ru": {
+                       "original": "Some weapons do different amounts of damage to heroes and blocks.",
+                       "translation": "Некоторое оружие более эффективно против героев, а некоторое против блоков"
+                   }
+               }
+           },
+           {
+               "text": "If your opponents have set up a powerful defense line, try using indirect fire (grenades, mortar) to weaken their defenses before you charge in.",
+               "data": {
+                   "ru": {
+                       "original": "If your opponents have set up a powerful defense line, try using indirect fire (grenades, mortar) to weaken their defenses before you charge in.",
+                       "translation": "Если ваш противник имеет мощную линию обороны, попробуйте обстрелять (гранатами,мортирами,ракетами) чтобы разрушить их защиту перед атакой."
+                   }
+               }
+           },
+           {
+               "text": "Some weapons have an altfire function instead of aiming down the sights. The main and alt fire functions of a weapon are shown on the right of the HUD.",
+               "data": {
+                   "ru": {
+                       "original": "Some weapons have an altfire function instead of aiming down the sights. The main and alt fire functions of a weapon are shown on the right of the HUD.",
+                       "translation": "Некоторое оружие имеет альтранативные функции кроме прицельвания. Основной и альтранативный огонь оружия показан справа на панеле."
+                   }
+               }
+           },
+           {
+               "text": "Cube Generators must be destroyed in order to make the Cube Core vulnerable.",
+               "data": {
+                   "ru": {
+                       "original": "Cube Generators must be destroyed in order to make the Cube Core vulnerable.",
+                       "translation": "Генераторы должны быть уничтожены по порядку чтобы сделать Базу уязвимой"
+                   }
+               }
+           },
+           {
+               "text": "Press TAB while chatting to switch between team chat and general chat.",
+               "data": {
+                   "ru": {
+                       "original": "Press TAB while chatting to switch between team chat and general chat.",
+                       "translation": "Нажмите TAB когда общаетесь чтобы поменять командный и главный чат."
+                   }
+               }
+           },
+           {
+               "text": "Bombs can be defused by mining them with your tool.",
+               "data": {
+                   "ru": {
+                       "original": "Bombs can be defused by mining them with your tool.",
+                       "translation": "Бомбы могут быть обезврежены вашим инструментом"
+                   }
+               }
+           },
+           {
+               "text": "Heroes are split into three groups and each group has some blocks only available to their group. Other blocks are available to all heroes.",
+               "data": {
+                   "ru": {
+                       "original": "Heroes are split into three groups and each group has some blocks only available to their group. Other blocks are available to all heroes.",
+                       "translation": "Герои разделяются на три группы и каждая имеет особенные блоки для их группы. Остальные блоки доступны всем героям."
+                   }
+               }
+           },
+           {
+               "text": "Explosive damage is absorbed by nearby blocks. So if you hide behind sturdy blocks like concrete, bricks or sandbags they will take damage first.",
+               "data": {
+                   "ru": {
+                       "original": "Explosive damage is absorbed by nearby blocks. So if you hide behind sturdy blocks like concrete, bricks or sandbags they will take damage first.",
+                       "translation": "Взрывной урон поглащается ближайшими блоками. Поэтому если вы спрячитесь за стеной блоков как бетон, кирпичи, или мешки с песком они получат урон первыми."
+                   }
+               }
+           },
+           {
+               "text": "The healing effect from the heal crate does not stack with itself. Same applies to the ammo crate.",
+               "data": {
+                   "ru": {
+                       "original": "The healing effect from the heal crate does not stack with itself. Same applies to the ammo crate.",
+                       "translation": "Эффект лечения из Исцеляющего блока не соединяется со своим. Тоже самое относится к Ящику боеприпасов."
+                   }
+               }
+           },
+           {
+               "text": "When assaulting enemy defenses, try to establish a small forward base. Just one heal block planted in a hole in the ground can make a difference. ",
+               "data": {
+                   "ru": {
+                       "original": "When assaulting enemy defenses, try to establish a small forward base. Just one heal block planted in a hole in the ground can make a difference. ",
+                       "translation": "Когда осаждаете вражескую базу, попробуйте установить маленькую базу передой помощи. Даже один Исцеляющий блок на земле способен принести победу."
+                   }
+               }
+           },
+           {
+               "text": "If you build chains of speed blocks, try putting mines between your speed pads to deny their use to your opponents. ",
+               "data": {
+                   "ru": {
+                       "original": "If you build chains of speed blocks, try putting mines between your speed pads to deny their use to your opponents. ",
+                       "translation": "Если вы строите цепочку из скоросных блоков, попробуйте установить между ними мины, чтобы предотвратить использование врагом."
+                   }
+               }
+           },
+           {
+               "text": "Be careful when using mines. Building a bunch of mines that can be easily shot by your opponents is the same as building free bombs for your opponents to use.",
+               "data": {
+                   "ru": {
+                       "original": "Be careful when using mines. Building a bunch of mines that can be easily shot by your opponents is the same as building free bombs for your opponents to use.",
+                       "translation": "Будь внимательным когда используешь мины. Постройки из мин могут стать легкой целью для вашего противника, и враг сможет взорвать вас на вашей же ловушке. "
+                   }
+               }
+           },
+           {
+               "text": "The false block takes on the appearance of the block it is built on. When an enemy steps on it, the false block breaks open. You can dig some trap pits and cover them up with false blocks.",
+               "data": {
+                   "ru": {
+                       "original": "The false block takes on the appearance of the block it is built on. When an enemy steps on it, the false block breaks open. You can dig some trap pits and cover them up with false blocks.",
+                       "translation": "Блок-Обманка принимает вид блока на котором он построен. Когда враг вступает на него, Блок-Обманка пропадает. Вы можете делать ямы ловушки покрытые Блоками-Обманками."
+                   }
+               }
+           },
+           {
+               "text": "The force gate block lets friendly teammates through. Use it to build a door to your fortifications that enemies can't get through. Alternatively you can build stairs behind your walls.",
+               "data": {
+                   "ru": {
+                       "original": "The force gate block lets friendly teammates through. Use it to build a door to your fortifications that enemies can't get through. Alternatively you can build stairs behind your walls.",
+                       "translation": "Врата из силовых блоков может пропустить вашего союзника через себя. Используйте эти блоки для дверей вашего форта, враг не сможет пройти.Также вы можете построить лестницу за вашей стеной."
+                   }
+               }
+           },
+           {
+               "text": "You can cover the area in front of your defensive walls with several rows of glue. This will give you time to stop enemy bombers when defending your wall.",
+               "data": {
+                   "ru": {
+                       "original": "You can cover the area in front of your defensive walls with several rows of glue. This will give you time to stop enemy bombers when defending your wall.",
+                       "translation": "Вы можете покрыть пол перед вашими стенами клеем. Это даст вам больше времени чтобы убить врага."
+                   }
+               }
+           },
+           {
+               "text": "Caltrops will weaken enemies and give you the upper hand when defending.  Be careful, caltrops will also hurt your own team as well.",
+               "data": {
+                   "ru": {
+                       "original": "Caltrops will weaken enemies and give you the upper hand when defending.  Be careful, caltrops will also hurt your own team as well.",
+                       "translation": "Колючки могут дать превосходую зашиту против врага. Но будьте аккуратны, колючки могу поранить и вашу команду."
+                   }
+               }
+           },
+           {
+               "text": "Building a bounce pad next to a speed block, then sprinting into the combo will allow you to super-leap at the cost of a rough landing. You’ll take some fall damage.",
+               "data": {
+                   "ru": {
+                       "original": "Building a bounce pad next to a speed block, then sprinting into the combo will allow you to super-leap at the cost of a rough landing. You’ll take some fall damage.",
+                       "translation": "Постройте Пружинный блок перед скоростным блоком, вы сделаете супер прыжок, но получите немного урона от падения."
+                   }
+               }
+           },
+           {
+               "text": "If your enemies have deployed respawn pads near your base, try to find them and take them out as soon as possible.",
+               "data": {
+                   "ru": {
+                       "original": "If your enemies have deployed respawn pads near your base, try to find them and take them out as soon as possible.",
+                       "translation": "Если ваш враг установил точки воскрешения возле вашей базы, попробуйте найти их как можно быстрее и остановите наступление."
+                   }
+               }
+           },
+           {
+               "text": "Remember that you can build respawn pads underground, but you'll need 2 blocks of vertical space for the pad to work.",
+               "data": {
+                   "ru": {
+                       "original": "Remember that you can build respawn pads underground, but you'll need 2 blocks of vertical space for the pad to work.",
+                       "translation": "Помните что вы можете строить точки респавна под землей, но необходимо 2 блока высотой чтобы точка работала."
+                   }
+               }
+           },
+           {
+               "text": "Use your role blocks to support your team with supplies, healing, improved mobility and tactical advantages.",
+               "data": {
+                   "ru": {
+                       "original": "Use your role blocks to support your team with supplies, healing, improved mobility and tactical advantages.",
+                       "translation": "Используйте ваши ролевые блоки чтобы помочь вашей команде с припасами,лечением, улучшеной мобильностью и тактическим превосходством."
+                   }
+               }
+           },
+           {
+               "text": "Heroes have passive and active abilities. You can learn more about them in the main menu.",
+               "data": {
+                   "ru": {
+                       "original": "Heroes have passive and active abilities. You can learn more about them in the main menu.",
+                       "translation": "Герои имеют пассивные и активные способности. Вы можете прочитать про них в главном меню."
+                   }
+               }
+           },
+           {
+               "text": "Remember to use Sarge Stone's frag grenade ability to finish off enemies taking cover.",
+               "data": {
+                   "ru": {
+                       "original": "Remember to use Sarge Stone's frag grenade ability to finish off enemies taking cover.",
+                       "translation": "Используйте гранаты Сержанта чтобы выкурить врага из укрытия."
+                   }
+               }
+           },
+           {
+               "text": "Cogwheel is very tough but moves slowly.",
+               "data": {
+                   "ru": {
+                       "original": "Cogwheel is very tough but moves slowly.",
+                       "translation": "Шестеренка очень живучий, но очень медленный."
+                   }
+               }
+           },
+           {
+               "text": "Cogwheel's main fire modes are better at mid-range combat while the altfire modes are more suited to short range combat.",
+               "data": {
+                   "ru": {
+                       "original": "Cogwheel's main fire modes are better at mid-range combat while the altfire modes are more suited to short range combat.",
+                       "translation": "Шестеренка из пулемёта основным режимом огня лучше ведёт бой на средней дистанции, альтранативный огонь поможет в ближнем бою."
+                   }
+               }
+           },
+           {
+               "text": "Nigel can take out enemy turrets safely from far away.",
+               "data": {
+                   "ru": {
+                       "original": "Nigel can take out enemy turrets safely from far away.",
+                       "translation": "Найджел может отстреливать вражеские турели из далека."
+                   }
+               }
+           },
+           {
+               "text": "Enemies spotted by Nigel are exposed to all teammates.",
+               "data": {
+                   "ru": {
+                       "original": "Enemies spotted by Nigel are exposed to all teammates.",
+                       "translation": "Враг обнаруженый Найджелом отображается для всей команды."
+                   }
+               }
+           },
+           {
+               "text": "O.P. 'Juan' Shinobi can use wall climbing to get the drop on his enemies.",
+               "data": {
+                   "ru": {
+                       "original": "O.P. 'Juan' Shinobi can use wall climbing to get the drop on his enemies.",
+                       "translation": "Опи Хван Шиноби может бегать по стенам и убивать своих врагов где бы они не были. "
+                   }
+               }
+           },
+           {
+               "text": "Try strafing around your enemies while you attack them with O.P. 'Juan' Shinobi's sword.",
+               "data": {
+                   "ru": {
+                       "original": "Try strafing around your enemies while you attack them with O.P. 'Juan' Shinobi's sword.",
+                       "translation": "Опи Хван Шиноби очень эффективно атакует мечом когда бегает вокруг врага."
+                   }
+               }
+           },
+           {
+               "text": "O.P. 'Juan' Shinobi can use hit and run tactics to wear down enemies with his bleeding attacks and active ability.",
+               "data": {
+                   "ru": {
+                       "original": "O.P. 'Juan' Shinobi can use hit and run tactics to wear down enemies with his bleeding attacks and active ability.",
+                       "translation": "Опи Хван Шиноби может использывать тактику \"бей и беги\" кровотечение нанесёт урон а активная способность поможет убежать."
+                   }
+               }
+           },
+           {
+               "text": "Tony Turretto can repair blocks and repair and buff his turrets with the caulk gun.",
+               "data": {
+                   "ru": {
+                       "original": "Tony Turretto can repair blocks and repair and buff his turrets with the caulk gun.",
+                       "translation": "Тони Турретто может ремонтировать блоки. Также он может ремонтировать и улучшать свои турели Супер-Клей Пушкой."
+                   }
+               }
+           },
+           {
+               "text": "Tony Turretto can quickly establish a forward base with his active ability.",
+               "data": {
+                   "ru": {
+                       "original": "Tony Turretto can quickly establish a forward base with his active ability.",
+                       "translation": "Тони Турретто может быстро обустроить базу с помошью активной способности."
+                   }
+               }
+           },
+           {
+               "text": "Doc Eliza can lob acid bubbles over enemy walls with the Globe Gun alt-fire.",
+               "data": {
+                   "ru": {
+                       "original": "Doc Eliza can lob acid bubbles over enemy walls with the Globe Gun alt-fire.",
+                       "translation": "Док Элиза может закидывать снаряды за стены Альтранативным Огнем Кислотной Пушки. "
+                   }
+               }
+           },
+           {
+               "text": "Doc Eliza can force enemies out of a fortified position with her Chem Grenades.",
+               "data": {
+                   "ru": {
+                       "original": "Doc Eliza can force enemies out of a fortified position with her Chem Grenades.",
+                       "translation": "Док Элиза может заставить врагов покинуть убежище с помощью химической гранаты."
+                   }
+               }
+           },
+           {
+               "text": "Doc Eliza is good at pushing forward with her team and keeping them alive.",
+               "data": {
+                   "ru": {
+                       "original": "Doc Eliza is good at pushing forward with her team and keeping them alive.",
+                       "translation": "Док Элиза хороша в наступлении, она не даст союзникам умереть."
+                   }
+               }
+           }
+       ]
+   },
+   "spectator_logic": {
+       "free_sensitivity": 3,
+       "free_movement_speed": 10,
+       "free_movement_damp": 1,
+       "free_rotation_damp": 1,
+       "orbit_rotation_speed": 150,
+       "orbit_rotation_damp": 1,
+       "orbit_distance_to_unit_min": 2,
+       "orbit_distance_to_unit_max": 8,
+       "orbit_distance_to_unit_step": 1,
+       "orbit_offset_on_unit": {
+           "x": 0,
+           "y": 1,
+           "z": 0
+       }
+   },
+   "rss_logic": {
+       "articles_url": "http://www.yourcompany.com/feed/articles/",
+       "promo_box_url": "http://www.yourcompany.com/feed/promoBox/",
+       "banner_url": "http://www.yourcompany.com/feed/banner/"
+   },
+   "steam_logic": {
+       "PremiumDlc": 335250,
+       "DeveloperDlc": 344020,
+       "locales": {
+           "english": "en",
+           "spanish": "es",
+           "russian": "ru",
+           "german": "de",
+           "french": "fr",
+           "portuguese": "pt"
+       },
+       "premium_skins": [
+           "skin_cogwheel_s3",
+           "skin_doc_eliza_s3",
+           "skin_engineer_s3",
+           "skin_ninja_s3",
+           "skin_sarge_stone_s3",
+           "skin_hunter_s3"
+       ],
+       "email_verified_skins": [
+           "skin_ninja_s4"
+       ]
+   },
+   "holiday_logic": {
+       "christmas_skins": [
+           "skin_engineer_s4"
+       ],
+       "christmas_skins_unlock": 20,
+       "christmas_begin": "2014-12-20T12:00:00",
+       "christmas_end": "2015-01-07T12:00:00",
+       "launch_skins": [
+       ],
+       "launch_begin": "2015-01-01T12:00:00",
+       "launch_end": "2015-01-07T12:00:00"
+   },
+   "category": "global_logic",
+   "hercules_metadata": {
+       "timestamp": "201502101317061458",
+       "user": "vladimir",
+       "prev_rev": "206-f693d3907917c1cbd8ad39c643e96143"
+   },
+   "premium_skins": [
+   ],
+   "rss_url": "",
+   "chat_logic": {
+       "offensive_words": [
+           "69er",
+           "acunt",
+           "acunts",
+           "anal",
+           "analshitter",
+           "andrape",
+           "anus",
+           "anuses",
+           "arsebandit",
+           "arsed",
+           "arsehole",
+           "arseholes",
+           "arsemonkey",
+           "arses",
+           "arshole",
+           "asexual",
+           "asrape",
+           "assballs",
+           "assfucker",
+           "assfuking",
+           "assgay",
+           "asshead",
+           "assho",
+           "asshole",
+           "assholes",
+           "assmunch",
+           "assnigger",
+           "assporn",
+           "B0ner",
+           "babyshit",
+           "babyshitter",
+           "babyshitting",
+           "battyboy",
+           "bch",
+           "bdsm",
+           "beaner",
+           "bedshiter",
+           "Bellend",
+           "bflicker",
+           "bisex",
+           "bitches",
+           "bj",
+           "Blair Flicker",
+           "blow job",
+           "Blow Jobs",
+           "blowjob",
+           "blowjobs",
+           "bondage",
+           "boner",
+           "boners",
+           "Brothel",
+           "bukkake",
+           "bumming",
+           "buttfucker",
+           "C*unt",
+           "cannabis",
+           "Castrate",
+           "cex",
+           "cexy",
+           "cfuck",
+           "chickenshit",
+           "chickenshits",
+           "childrape",
+           "chink",
+           "chinks",
+           "Climax",
+           "clit",
+           "clitoral",
+           "clitoris",
+           "clitorises",
+           "cocaine",
+           "cockass",
+           "cockchafer",
+           "cockchafers",
+           "cockeater",
+           "cocked",
+           "cockend",
+           "cocker",
+           "cocking",
+           "cockless",
+           "cocklover",
+           "cockloving",
+           "cockrider",
+           "cockrocket",
+           "cockrub",
+           "cocks",
+           "cocksucker",
+           "cocktaster",
+           "cocktease",
+           "cocktoucher",
+           "com",
+           "condom",
+           "condoms",
+           "cooch",
+           "coon",
+           "coons",
+           "coprophilia",
+           "Cowpenis",
+           "crackhore",
+           "cum",
+           "cumcake",
+           "cumming",
+           "cums",
+           "cunnilingus",
+           "cunting",
+           "cuntless",
+           "cuntlicker",
+           "Cuntness",
+           "cunts",
+           "Cunty",
+           "d’ick",
+           "D1ck",
+           "deepthroat",
+           "dic",
+           "dick",
+           "dickheads",
+           "dicklicker",
+           "dicks",
+           "dics",
+           "dik",
+           "diks",
+           "dildo",
+           "dildos",
+           "Dominatrix",
+           "Donkeypunch",
+           "douch",
+           "dyke",
+           "'erection",
+           "erections",
+           "f off",
+           "f u",
+           "f u c k",
+           "f8ggot",
+           "fack",
+           "Facked",
+           "facking",
+           "faeces",
+           "fag",
+           "faget",
+           "faggot",
+           "faggots",
+           "fagit",
+           "fagot",
+           "Fagot",
+           "Fags",
+           "fags",
+           "fak",
+           "fanny",
+           "faqqot",
+           "fcktard",
+           "felch",
+           "Fellatio",
+           "fellatio",
+           "feltch",
+           "feltching",
+           "Femdom",
+           "fisting",
+           "fking",
+           "fook",
+           "fuc",
+           "fucked",
+           "fucked",
+           "fucker",
+           "fucker",
+           "fuckers",
+           "fuckers",
+           "fuckhead",
+           "fucking",
+           "fuckl",
+           "fucks",
+           "fucky",
+           "fuctard",
+           "fucyou",
+           "fudgepacker",
+           "Fuk",
+           "fuked",
+           "Fuker",
+           "fukin",
+           "fuking",
+           "g a y",
+           "g ay",
+           "gai",
+           "gais",
+           "gang bang",
+           "Gangbang",
+           "gash",
+           "'gay",
+           "gáy",
+           "gayass",
+           "gaylord",
+           "gayporn",
+           "gays",
+           "gook",
+           "gotraped",
+           "gspot",
+           "hardcoresex",
+           "hardrape",
+           "hardraper",
+           "hasheesh",
+           "hashish",
+           "heroin",
+           "herowin",
+           "hitlerian",
+           "homo",
+           "homoerotic",
+           "homosexual",
+           "homosexuality",
+           "homosexuals",
+           "hooker",
+           "hore",
+           "horni",
+           "horny",
+           "horsecock",
+           "hotsex",
+           "hymen",
+           "incest",
+           "irape",
+           "jack off",
+           "Jackoff",
+           "Jerk off",
+           "jhoring",
+           "jigaboo",
+           "jigga",
+           "jiz",
+           "jizz",
+           "Jizzed",
+           "kidrape",
+           "kiffer",
+           "kike",
+           "Klu Klux",
+           "kneegrow",
+           "knob",
+           "Knobs",
+           "labia",
+           "labial",
+           "labials",
+           "labium",
+           "lesbo",
+           "lez",
+           "lezz",
+           "lezzfucklezz",
+           "lsd",
+           "marijuana",
+           "mastabation",
+           "master bait",
+           "master bate",
+           "master bate",
+           "masterbait",
+           "masterbate",
+           "masterbating",
+           "masturbated",
+           "masturbates",
+           "masturbating",
+           "masturbation",
+           "masturbator",
+           "masturbators",
+           "meatspin",
+           "minge",
+           "molest",
+           "molestation",
+           "molested",
+           "'molested",
+           "molester",
+           "molesters",
+           "molesting",
+           "molests",
+           "moonshit",
+           "motherfuck",
+           "motherfucker",
+           "motherfuckers",
+           "motherfucking",
+           "muff",
+           "mydick",
+           "n1gga",
+           "n1ggar",
+           "naked",
+           "nazis",
+           "necrophilia",
+           "necrophiliac",
+           "necrophiliacs",
+           "neggers",
+           "ngrs",
+           "ni qqa",
+           "ni66er",
+           "ni99er",
+           "ni99ers",
+           "'nig",
+           "nigg",
+           "nigga",
+           "Nigga 100",
+           "niggas",
+           "niggaz",
+           "nigger",
+           "Nigger 100",
+           "niggers",
+           "Nigglet",
+           "niglet",
+           "Nigqa",
+           "Nigqar",
+           "nipple",
+           "nipples",
+           "Niqga",
+           "Niqqah",
+           "Niqqar",
+           "nob",
+           "oral",
+           "orally",
+           "orals",
+           "orgasm",
+           "orgasms",
+           "orgies",
+           "orgy",
+           "oversexed",
+           "p@rn",
+           "p00sy",
+           "packie",
+           "paedophiles",
+           "paedophilia",
+           "pakey",
+           "paki",
+           "pansexuality",
+           "panties",
+           "Paraphilia",
+           "parswurd",
+           "pedo",
+           "Pedo",
+           "pedofile",
+           "pedophile",
+           "pedophiles",
+           "pedophilia",
+           "pedophilic",
+           "peed 0file",
+           "peenus",
+           "pen\"is",
+           "pen*is",
+           "Pen_is",
+           "pen`is",
+           "pen~is",
+           "penes",
+           "'penis",
+           "penises",
+           "penisless",
+           "peñûs",
+           "perv",
+           "perversion",
+           "perversions",
+           "perverts",
+           "pervs",
+           "petofile",
+           "Pikey",
+           "poofter",
+           "poofters",
+           "poon",
+           "poontang",
+           "poorass",
+           "poorassniger",
+           "poorassnigers",
+           "Poosy",
+           "porch monkey",
+           "porchmonkey",
+           "porch-monkey",
+           "prik",
+           "pssyliqer",
+           "psychosexual",
+           "Pubes",
+           "Pubic",
+           "punani",
+           "pusie",
+           "Pussi",
+           "pussies",
+           "pussynigga",
+           "queerer",
+           "queerest",
+           "queerly",
+           "queerness",
+           "queers",
+           "quim",
+           "r)ape",
+           "r2pe",
+           "rap3",
+           "Rape",
+           "rapeass",
+           "raped",
+           "rapel",
+           "rapeland",
+           "raper",
+           "rapes",
+           "raping",
+           "rapingme",
+           "rapist",
+           "rapists",
+           "rayp",
+           "redtuber",
+           "retarder",
+           "retards",
+           "rhape",
+           "rimjob",
+           "Rimjobs",
+           "rugmuncher",
+           "s h i t",
+           "S&M",
+           "sadomasochist",
+           "scank",
+           "schlag",
+           "scrota",
+           "scrotal",
+           "scrotum",
+           "scrotums",
+           "se)(",
+           "se][",
+           "se}{",
+           "se><",
+           "secks",
+           "sexbum",
+           "sexchange",
+           "Shait",
+           "shat",
+           "sheat",
+           "shemale",
+           "shemales",
+           "shiite",
+           "shitball",
+           "shitbone",
+           "shitbones",
+           "shite",
+           "shites",
+           "shitfaced",
+           "shithead",
+           "shitheads",
+           "shither",
+           "shitless",
+           "shitlike",
+           "shitload",
+           "shitness",
+           "shitno",
+           "shits",
+           "shitted",
+           "shitter",
+           "shitter",
+           "shittier",
+           "shittiest",
+           "shitting",
+           "shittish",
+           "shitty",
+           "shlong",
+           "single-sex",
+           "skank",
+           "sket",
+           "sluts",
+           "sluttish",
+           "slutty",
+           "smackhead",
+           "smackhore",
+           "snuff",
+           "Sodomize",
+           "sodomy",
+           "sonofabitch",
+           "sonsofbitches",
+           "spastic",
+           "spastic",
+           "spastically",
+           "spasticity",
+           "spastics",
+           "spaz",
+           "spaz",
+           "spazzy",
+           "Splooge",
+           "spunk",
+           "spunkier",
+           "spunkiest",
+           "spunks",
+           "spunky",
+           "stfucku",
+           "stfuckup",
+           "Stiffy",
+           "stnigger",
+           "strfuck",
+           "swhore",
+           "tard",
+           "teabagging",
+           "throating",
+           "Tribadism",
+           "tw@",
+           "tw@",
+           "twating",
+           "twats",
+           "unisexual",
+           "unmolested",
+           "unsexual",
+           "vaginae",
+           "vaginal",
+           "vaginalicker",
+           "vaginally",
+           "vègïñã",
+           "Venereal",
+           "Viagra",
+           "vulva",
+           "wan k er",
+           "wang",
+           "wanka",
+           "wanka",
+           "Wanked",
+           "wankel",
+           "wanker",
+           "wankers",
+           "wanking",
+           "wanks",
+           "whiteass",
+           "whiteassnigger",
+           "whoreish",
+           "Whoremonger",
+           "whoremongler",
+           "wiger",
+           "wigger",
+           "wog",
+           "wonderfuck",
+           "wop",
+           "wops",
+           "[starts_ends]",
+           "m0d",
+           "mdd",
+           "pmod",
+           "pm0d",
+           "pmdd",
+           "fmod",
+           "fm0d",
+           "fmdd",
+           "jmod",
+           "jm0d",
+           "jmdd",
+           "balls",
+           "ban",
+           "bnp",
+           "cop",
+           "ira",
+           "macro",
+           "admn",
+           "jag_m",
+           "iyiod",
+           "jyiod",
+           "itiod",
+           "jtiod",
+           "[contains]",
+           "mod",
+           "kkk",
+           "gower",
+           "g0wer",
+           "g0w3r",
+           "govver",
+           "g0vv3r",
+           "gouuer",
+           "gouu3r",
+           "g0uuer",
+           "fauck",
+           "fluck",
+           "fuhc",
+           "jagex",
+           "jagax",
+           "jaggex",
+           "jeggex",
+           "jgex",
+           "jagx",
+           "ja6ex",
+           "ja6x",
+           "j6ex",
+           "jagstaf",
+           "ja6staf",
+           "j4gstaf",
+           "jgx",
+           "jag3x",
+           "j4g3x",
+           "j4gex",
+           "jaqex",
+           "jaqax",
+           "jqex",
+           "jaqx",
+           "jaqstaf",
+           "j4qstaf",
+           "jqx",
+           "jaq3x",
+           "j4q3x",
+           "j4qex",
+           "jegex",
+           "jogex",
+           "hoe",
+           "h0e",
+           "ho3",
+           "h03",
+           "admin",
+           "4dmin",
+           "adm1n",
+           "4dm1n",
+           "staff",
+           "st4ff",
+           "hate",
+           "h4te",
+           "hat3",
+           "h4t3",
+           "runescape",
+           "run3scape",
+           "run3sc4pe",
+           "run3sc4p3",
+           "java",
+           "abuse",
+           "abuser",
+           "adviser",
+           "aids",
+           "alert",
+           "cheat",
+           "dealer",
+           "dike",
+           "employee",
+           "funorb",
+           "jerk",
+           "manager",
+           "mechscape",
+           "mute",
+           "official",
+           "pass",
+           "police",
+           "racist",
+           "rimming",
+           "scam",
+           "security",
+           "support",
+           "weiner",
+           "xxx",
+           "fuck",
+           "pussy",
+           "cunt",
+           "cock",
+           "suck",
+           "sucks",
+           "OMG",
+           "noob",
+           "newb"
+       ]
+   },
+   "player_notifications": {
+       "needs_help": "note_teammate_need_help",
+       "going_offensive": "note_teammate_going_offensive",
+       "going_defensive": "note_teammate_going_defensive",
+       "follow_me": "note_teammate_follow_me",
+       "building": "note_teammate_building"
+   },
+   "available_game_modes": [
+       "game_mode_friendly",
+       "game_mode_ranked",
+       "game_mode_graveyard"
+   ],
+   "scope": "public"
+}

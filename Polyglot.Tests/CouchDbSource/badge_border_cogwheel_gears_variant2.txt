@@ -1,0 +1,22 @@
+﻿{
+   "_id": "badge_border_cogwheel_gears_variant2",
+   "_rev": "34-47c518434402b74d4a3673246befe5d3",
+   "icon": "progress_cogwheel_border1",
+   "name": {
+       "text": "new Grinding Gears",
+       "data": {
+           "ru": {
+               "original": "Grinding Gears",
+               "translation": "Отточенный механизм!"
+           }
+       }
+   },
+   "badge_type": "border",
+   "category": "badge",
+   "hercules_metadata": {
+       "timestamp": "201503191317508951",
+       "user": "vladimir",
+       "prev_rev": "33-dbc55a18fb7a94f15ac08bf7926e7039"
+   },
+   "scope": "public"
+}

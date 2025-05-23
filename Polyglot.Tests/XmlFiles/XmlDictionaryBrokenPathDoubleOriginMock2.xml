@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="ru">
+	<document name="strings_chat">
+		<entry path="strings.chat_ban_reason_generic" valid="true">
+			<original>You've been banned from the chat.</original>
+			<translation>Вы были забанены в этом чате.</translation>
+		</entry>
+		<entry path="strings.chat_ban_reason_inappropriate_behaviour" valid="true">
+			<original>You've been banned from the chat for inappropriate or offensive behaviour</original>
+			<translation>Вы были забанены в этом чате за неправильное или оскорбительное поведение</translation>
+		</entry>
+		<entry path="strings.chat_ban_reason_bullying" valid="true">
+			<original>You've been banned from the chat for bullying</original>
+			<translation>Вы были забанены в этом чате за запугивание</translation>
+		</entry>
+		<entry path="strings.x" valid="true">
+			<original>NEEDS HELP</original>
+			<translation>new translation first</translation>
+		</entry>
+		<entry path="strings.hud_player_alert_building" valid="true">
+			<original>BUILDING</original>
+			<translation>СТРОИМ</translation>
+		</entry>
+		<entry path="x" valid="true">
+			<original>NEEDS HELP</original>
+			<translation>new translation second</translation>
+		</entry>
+	</document>
+</language>

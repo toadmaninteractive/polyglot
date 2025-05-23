@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language name="ru">
+	<document name="strings">
+		<entry path="strings.your_selected_block_deck" valid="true">
+			<original>YOUR SELECTED BLOCK DECK</original>
+			<translation>ВАШ НАБОР БЛОКОВ</translation>
+		</entry>
+		<entry path="strings.time_is_running_out" valid="true">
+			<original>Time is running out</original>
+			<translation>Время на исходе!!!</translation>
+		</entry>
+		<entry path="strings.m" valid="true">
+			<original>M</original>
+			<translation>М</translation>
+		</entry>
+		<entry path="strings.alert_no_message" valid="true">
+			<original>Alert no message</original>
+			<translation>Сообщений нет</translation>
+		</entry>
+	</document>
+</language>

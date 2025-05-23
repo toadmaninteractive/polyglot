@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language name="ru">
+	<document name="global_logic">
+		<entry path="tips_logic.tips[x]" valid="true">
+			<original>You can customize your key bindings in the settings menu.</original>
+			<translation>new translation</translation>
+		</entry>
+		<entry path="tips_logic.tips[xx]" valid="true">
+			<original>Jumping maintains your momentum, so you can sprint and jump for a longer leap. This rule also applies to speed and bounce pads.</original>
+			<translation>new translation</translation>
+		</entry>
+		<entry path="tips_logic.tips[2]" valid="true">
+			<original>Supply drops award all of your teammates a sizeable amount of bricks. Try to pick them up before your enemies do.</original>
+			<translation>Ящик с ресурсами награждает всю вашу команду определенным кол-вом Ресурсов. Попробуйте поднять его, прежде чем ваши враги.......</translation>
+		</entry>
+		<entry path="tips_logic.x" valid="true">
+			<original>All player-built blocks can be salvaged for half of their building cost.</original>
+			<translation>new translation</translation>
+		</entry>
+		<entry path="tips_logic.tips[4]" valid="true">
+			<original>You can't shoot, but you can reload while sprinting.</original>
+			<translation>new translation</translation>
+		</entry>
+	</document>
+</language>

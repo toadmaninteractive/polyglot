@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language name="ru">
+	<document name="badge_border_cogwheel_gears">
+		<entry path="x" valid="true">
+			<original></original>
+			<translation>new translation</translation>
+		</entry>
+	</document>
+</language>

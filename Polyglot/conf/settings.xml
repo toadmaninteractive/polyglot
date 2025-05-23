@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<serverUrl>https://cdb.yourcompany.com</serverUrl>
+	<databaseName>sample</databaseName>
+	<useAuthentication>True</useAuthentication>
+	<localeTranslation>no</localeTranslation>
+	<lastFolder>.\</lastFolder>
+	<xmlReadable>True</xmlReadable>
+	<Advance>True</Advance>
+</settings>

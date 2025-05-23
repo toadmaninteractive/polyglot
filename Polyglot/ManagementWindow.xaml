@@ -1,0 +1,129 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:WpfLogger="clr-namespace:Polyglot.WpfLogger"
+        xmlns:CustomControls="clr-namespace:Polyglot.CustomControls"
+        x:Class="Polyglot.ManagementWindow"
+        Icon="/Polyglot;component/Polyglot.ico"
+        ResizeMode="CanMinimize"
+        Height="160" 
+        Width="475">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" Name="RowMainMenu" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="25" />
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0" Name="MainMenu">
+            <Menu DockPanel.Dock="Top" Background="Transparent">
+                <MenuItem Header="File">
+                    <MenuItem Header="Settings..."  Click="AuthenticationSettingsClick">
+                        <MenuItem.Icon>
+                            <Image Source="/Polyglot;component/Images/ConnectionSettings.png" Width="16" Height="16" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Check for updates" Click="CheckForUpdatesClick">
+                        <MenuItem.Icon>
+                            <Image Source="/Polyglot;component/Images/AppUpdate.png" Width="16" Height="16" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Exit" Click="ExitHandler" />
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+
+        <Button 
+            Grid.Row="0"
+            x:Name="btnAppUpdateAvailable"
+            Cursor="Hand" 
+            Visibility="Collapsed"
+            HorizontalAlignment="Right" 
+            Margin="2"
+            Padding="10,0"
+            FontSize="13"
+            Click="CheckForUpdatesClick">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Foreground" Value="#FF1F6FEF" />
+                    <Setter Property="TextBlock.TextAlignment" Value="Center" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border CornerRadius="2" BorderBrush="#ccc" BorderThickness="1" >
+                                    <ContentPresenter 
+                                        x:Name="contentPresenter" 
+                                        ContentTemplate="{TemplateBinding ContentTemplate}" 
+                                        Content="{TemplateBinding Content}" 
+                                        HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                        Margin="{TemplateBinding Padding}" 
+                                        VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                    <Border.Style>
+                                        <Style TargetType="Border">
+                                            <Setter Property="Border.Background" Value="#FFE6EBF5"/>
+                                            <Style.Triggers>
+                                                <Trigger Property="Border.IsMouseOver" Value="True">
+                                                    <Setter Property="Background" Value="LightGoldenrodYellow"/>
+                                                    <Setter Property="Button.Foreground" Value="SlateGray" />
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Border.Style>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+            UPDATE IS AVAILABLE - APPLY
+        </Button>
+
+        <Button
+            Grid.Row="1"
+			Content="Fetch Strings" 
+			Height="44" 
+			Width="118" 
+			Padding="1" 
+			Margin="15,0,0,0" 
+            FontFamily="Segoe UI"
+            FontSize="10 pt"
+            Cursor="Hand"
+            VerticalContentAlignment="Center"
+			Click="FetchAndSave" HorizontalAlignment="Left"/>
+        <Button
+            Grid.Row="1"
+			Content="Submit Translation" 
+			Height="44" 
+			Width="145" 
+			Padding="1" 
+            FontFamily="Segoe UI"
+            FontSize="10 pt"
+            VerticalContentAlignment="Center"
+            Cursor="Hand"
+			Click="LoadAndSubmit" HorizontalAlignment="Center"/>
+        <Button
+            Grid.Row="1"
+			Content="Export To SJSON" 
+			Height="44" 
+			Width="118" 
+			Padding="1" 
+            FontFamily="Segoe UI"
+            FontSize="10 pt"
+			Margin="0,0,15,0" 
+            VerticalContentAlignment="Center"
+            Cursor="Hand"
+			Click="ExportToSJSON" HorizontalAlignment="Right"/>
+
+        <StatusBar DockPanel.Dock="Bottom" Grid.Row="2">
+            <StatusBarItem Width="430">
+                <WpfLogger:LoggerTextBox x:Name="TextLog" Margin="0,0,0,0" IsReadOnly="True" FontFamily="Consolas" FontSize="12" Background="#FFF0F0F1" BorderBrush="{x:Null}" IsEnabled="False"></WpfLogger:LoggerTextBox>
+            </StatusBarItem>
+            <StatusBarItem>
+                <Viewbox>
+                    <CustomControls:LoadIndicator x:Name="LoadingIndicator"/>
+                </Viewbox>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

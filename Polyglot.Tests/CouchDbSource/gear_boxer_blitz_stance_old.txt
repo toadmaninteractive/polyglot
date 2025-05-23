@@ -1,0 +1,174 @@
+﻿{
+   "_id": "gear_boxer_blitz_stance_old",
+   "_rev": "2-8cf026e91310d22039cdc0a5990d4122",
+   "prefab": "Prefabs/Gears/Unit/Blitz",
+   "fps_prefab": "Prefabs/Gears/Player/Blitz",
+   "icon": "sweetscience_W1_blitzstance_primary",
+   "killscore_icon": "icon_killscore_blitzstance",
+   "name": {
+       "text": "Blitz Stance",
+       "data": {
+           "ru": {
+               "original": "Blitz Stance",
+               "translation": "Стойка Молния"
+           }
+       }
+   },
+   "description": {
+       "text": "Quick punches coupled with a dash attack on the right click.",
+       "data": {
+           "ru": {
+               "original": "Quick punches coupled with a dash attack on the right click.",
+               "translation": ""
+           }
+       }
+   },
+   "animation_tag": "Shovel",
+   "big_icon": "sweetscience_W1_blitzstance_primary",
+   "primary_fire_icon": "sweetscience_W1_blitzstance_primary",
+   "alt_fire_icon": "sweetscience_W1_blitzstance_secondary",
+   "pickup_time": 0.5,
+   "drop_time": 0,
+   "equip_effects": [
+   ],
+   "ammo": [
+       {
+           "pool": {
+               "pool_size": 12,
+               "base_regen": 1
+           },
+           "mag_size": 2
+       }
+   ],
+   "reload": {
+       "type": "full_clip",
+       "reload_time": 2
+   },
+   "sway": null,
+   "sway_crouch_mod": null,
+   "cone_of_fire": null,
+   "reticle": null,
+   "tools": [
+       {
+           "type": "melee",
+           "ammo": null,
+           "arc_angle": 90,
+           "heeling_angle": 0,
+           "range": 2,
+           "bloom": null,
+           "attack_type": "auto",
+           "hit_effect": {
+               "type": "bunch",
+               "interrupt": null,
+               "targeting": null,
+               "impact": "impact_boxer_blitz_stance",
+               "break_on_effect_fail": false,
+               "instant": [
+                   {
+                       "type": "damage",
+                       "interrupt": null,
+                       "targeting": null,
+                       "impact": null,
+                       "damage": {
+                           "player_damage": 20,
+                           "world_damage": 20,
+                           "armor_penetration": 0,
+                           "shield_penetration": 0,
+                           "mining": false,
+                           "melee": false
+                       },
+                       "crit_modifier": 1.5,
+                       "falloff": null
+                   }
+               ],
+               "constant": [
+               ]
+           },
+           "timing": {
+               "pre_attack_time": 0.2,
+               "attack_time": 0.3
+           }
+       },
+       {
+           "type": "shot",
+           "ammo": {
+               "rate": 1,
+               "ammo_index": 0,
+               "last_shot_reload": false
+           },
+           "auto_fire": false,
+           "range": 10,
+           "hit_on_out_of_range": true,
+           "bullet": {
+               "type": "hitscan"
+           },
+           "bloom": null,
+           "recoil": null,
+           "bullets": null,
+           "hit_effect": {
+               "type": "bunch",
+               "interrupt": null,
+               "targeting": null,
+               "impact": null,
+               "break_on_effect_fail": false,
+               "instant": [
+                   {
+                       "type": "teleport_to",
+                       "interrupt": null,
+                       "targeting": null,
+                       "impact": null
+                   },
+                   {
+                       "type": "splash_damage",
+                       "interrupt": null,
+                       "targeting": {
+                           "affected_labels": null,
+                           "affected_units": null,
+                           "affected_team": "opponent",
+                           "caster_owned_only": false
+                       },
+                       "impact": null,
+                       "damage": {
+                           "player_damage": 20,
+                           "world_damage": 20,
+                           "armor_penetration": 0,
+                           "shield_penetration": 0,
+                           "mining": false,
+                           "melee": false
+                       },
+                       "radius": 3
+                   },
+                   {
+                       "type": "knockback",
+                       "interrupt": null,
+                       "targeting": {
+                           "affected_labels": null,
+                           "affected_units": null,
+                           "affected_team": "opponent",
+                           "caster_owned_only": false
+                       },
+                       "impact": null,
+                       "force": 1,
+                       "midair_force": 2,
+                       "effect_range": 1,
+                       "linear_falloff": true,
+                       "affect_caster": false
+                   }
+               ],
+               "constant": [
+               ]
+           },
+           "timing": {
+               "pre_attack_time": 0.5,
+               "attack_time": 0.5
+           }
+       }
+   ],
+   "category": "gear",
+   "hercules_metadata": {
+       "timestamp": "201502021053413570",
+       "user": "pmmax",
+       "prev_rev": "1-f970752fc510331ab96724be9aa52f40"
+   },
+   "scope": "public"
+}
